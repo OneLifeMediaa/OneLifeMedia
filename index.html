@@ -17,16 +17,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=138391288"/>
-  <link rel="stylesheet" type="text/css" href="css/master_video-background.css?crc=3996271086"/>
-  <link rel="stylesheet" type="text/css" href="css/master_header.css?crc=3848676854"/>
-  <link rel="stylesheet" type="text/css" href="css/master_header-footer.css?crc=4109312045"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=330125814" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_video-background.css?crc=163498642"/>
+  <link rel="stylesheet" type="text/css" href="css/master_header.css?crc=3933128764"/>
+  <link rel="stylesheet" type="text/css" href="css/master_header-footer.css?crc=188574661"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4032382710" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_video-background.css?crc=3824530138"/>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_header.css?crc=3824530138"/>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_header-footer.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3883950729" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3932227492" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -78,7 +78,7 @@ html, body {
 #overlay{
   position: absolute;
   top: 0; right: 0; left: 0; bottom: 0;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.5);
   background-color: transparent;
   background-image: url('Add File');
   background-image: url(Replace with Base64 Data from Patternify.com.);
@@ -88,7 +88,7 @@ html, body {
 
 #video_controls {
   position: absolute;
-  top: 75%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
@@ -98,19 +98,19 @@ html, body {
   width: 50px;
 }
 #pause img {
-  width: 100px;
+  width: 50px;
 }
 #pause {
   display: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   #container {
     display: block;
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1880px) {
   #video_controls {
     display: inline-block;
   }
@@ -123,24 +123,22 @@ html, body {
 
   <!--HTML Widget code-->
   
-<div id='container'><video id='background_video' loop muted   playsinline></video><div id='video_cover'></div><div id='overlay'></div><div id='video_controls'><span id='play'><img src='assets/play-02.png'></span><span id='pause'><img src='assets/pause.png'></span></div></div>
+<div id='container'><video id='background_video' loop muted preload playsinline></video><div id='video_cover'></div><div id='overlay'></div><div id='video_controls'><span id='play'><img src='assets/play-02.png'></span><span id='pause'><img src='assets/pause.png'></span></div></div>
 
   
   <div class="breakpoint active" id="bp_infinity" data-min-width="1081"><!-- responsive breakpoint node -->
    <div class="clearfix" id="page"><!-- group -->
+    <div class="size_fixed grpelem shared_content" id="u44346" data-content-guid="u44346_content"><!-- custom html -->
+     
+
+    </div>
     <div class="clearfix grpelem shared_content" id="pfeatures" data-content-guid="pfeatures_content"><!-- column -->
      <a class="anchor_item colelem shared_content" id="features" data-content-guid="features_content"></a>
      <a class="anchor_item colelem shared_content" id="aboutus" data-content-guid="aboutus_content"></a>
      <a class="anchor_item colelem shared_content" id="blogpost" data-content-guid="blogpost_content"></a>
      <a class="anchor_item colelem shared_content" id="contactus" data-content-guid="contactus_content"></a>
     </div>
-    <div class="clearfix grpelem" id="phome"><!-- column -->
-     <a class="anchor_item colelem shared_content" id="home" data-content-guid="home_content"></a>
-     <div class="size_fixed colelem shared_content" id="u39107" data-content-guid="u39107_content"><!-- custom html -->
-      
-
-     </div>
-    </div>
+    <a class="anchor_item grpelem shared_content" id="home" data-content-guid="home_content"></a>
     <div class="clearfix grpelem" id="ppamphletu500"><!-- column -->
      <div class="PamphletWidget clearfix colelem" id="pamphletu500"><!-- none box -->
       <div class="ThumbGroup clearfix grpelem" id="u501"><!-- none box -->
@@ -183,7 +181,7 @@ html, body {
      <div class="OLM_H2_02 clearfix colelem shared_content" id="u42343-4" data-content-guid="u42343-4_content"><!-- content -->
       <h2>DIGITAL CONTENT CREATION</h2>
      </div>
-     <div class="clearfix colelem" id="pu39410"><!-- group -->
+     <div class="clearfix colelem shared_content" id="pu39410" data-content-guid="pu39410_content"><!-- group -->
       <div class="grpelem shared_content" id="u39410" data-content-guid="u39410_content"><!-- custom html -->
        <a href="https://www.facebook.com/oLifeMedia/" class="fa fa-facebook" text-align="center"></a>
       </div>
@@ -207,7 +205,7 @@ html, body {
 <script>if (typeof (fg_widgets) === "undefined") fg_widgets = new Array(); fg_widgets.push("fgid_bbb387271ca7690ba41530acf");</script>
 <script async src="https://www.feedgrabbr.com/widget/fgwidget.js"></script>
      </div>
-     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u16704-4" data-content-guid="u16704-4_content"><!-- content -->
+     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u44403-4" data-content-guid="u44403-4_content"><!-- content -->
       <h1>CONTACT US</h1>
      </div>
      <div class="ose_pre_init colelem shared_content" id="u16703" data-content-guid="u16703_content"><!-- custom html -->
@@ -217,8 +215,8 @@ html, body {
     <a class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init shared_content" id="u21005" href="index.html#home" data-content-guid="u21005_content"><!-- simple frame --></a>
     <div class="verticalspacer" data-offset-top="3493" data-content-above-spacer="3492" data-content-below-spacer="396"></div>
     <a class="anchor_item grpelem shared_content" id="subscribe" data-content-guid="subscribe_content"></a>
-    <div class="clearfix grpelem shared_content" id="pu16690-4" data-content-guid="pu16690-4_content"><!-- column -->
-     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u16690-4" data-content-guid="u16690-4_content"><!-- content -->
+    <div class="clearfix grpelem shared_content" id="pu44391-4" data-content-guid="pu44391-4_content"><!-- column -->
+     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u44391-4" data-content-guid="u44391-4_content"><!-- content -->
       <h1>FEATURES</h1>
      </div>
      <div class="clearfix colelem" id="pu16691"><!-- group -->
@@ -243,7 +241,7 @@ html, body {
        </div>
       </div>
      </div>
-     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u16698-4" data-content-guid="u16698-4_content"><!-- content -->
+     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u44367-4" data-content-guid="u44367-4_content"><!-- content -->
       <h1>ABOUT US</h1>
      </div>
      <div class="rgba-background clearfix ose_pre_init colelem shared_content" id="u43825-10" data-content-guid="u43825-10_content"><!-- content -->
@@ -255,7 +253,7 @@ html, body {
        <p>Joseph Wright - One-Life Media</p>
       </div>
      </div>
-     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u16707-4" data-content-guid="u16707-4_content"><!-- content -->
+     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u44379-4" data-content-guid="u44379-4_content"><!-- content -->
       <h1>BLOG POSTS</h1>
      </div>
      <div class="browser_width colelem shared_content" id="u38248-bw" data-content-guid="u38248-bw_content">
@@ -313,6 +311,7 @@ html, body {
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
     <span class="anchor_item grpelem placeholder" data-placeholder-for="home_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pfeatures_content"><!-- placeholder node --></span>
+    <span class="size_fixed grpelem placeholder" data-placeholder-for="u44346_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem" id="ppu42331-4"><!-- column -->
      <div class="clearfix colelem" id="pu42331-4"><!-- group -->
       <span class="OLM_H1 clearfix grpelem placeholder" data-placeholder-for="u42331-4_content"><!-- placeholder node --></span>
@@ -352,7 +351,6 @@ html, body {
         </div>
        </div>
       </div>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u39107_content"><!-- placeholder node --></span>
      </div>
      <div class="clearfix colelem temp_no_id" data-orig-id="pu39410"><!-- group -->
       <span class="grpelem placeholder" data-placeholder-for="u39410_content"><!-- placeholder node --></span>
@@ -366,108 +364,95 @@ html, body {
      </div>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu16689_content"><!-- placeholder node --></span>
      <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16688_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u16704-4_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44403-4_content"><!-- placeholder node --></span>
      <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16703_content"><!-- placeholder node --></span>
     </div>
     <span class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init placeholder" data-placeholder-for="u21005_content"><!-- placeholder node --></span>
     <div class="verticalspacer" data-offset-top="3040" data-content-above-spacer="3040" data-content-below-spacer="446"></div>
     <span class="anchor_item grpelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu16690-4_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu44391-4_content"><!-- placeholder node --></span>
    </div>
   </div>
   <div class="breakpoint" id="bp_609" data-min-width="361" data-max-width="609"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <div class="clearfix grpelem temp_no_id" data-orig-id="phome"><!-- column -->
+    <div class="clearfix grpelem" id="phome"><!-- column -->
      <span class="anchor_item colelem placeholder" data-placeholder-for="home_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="aboutus_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="blogpost_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="contactus_content"><!-- placeholder node --></span>
     </div>
-    <div class="clearfix grpelem" id="ppu39107"><!-- column -->
-     <div class="clearfix colelem" id="pu39107"><!-- group -->
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u39107_content"><!-- placeholder node --></span>
-      <div class="PamphletWidget clearfix grpelem temp_no_id" data-orig-id="pamphletu500"><!-- none box -->
-       <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u501"><!-- none box -->
-        <div class="popup_anchor temp_no_id" data-orig-id="u502popup">
-         <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u502"><!-- simple frame --></div>
-        </div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppamphletu500"><!-- column -->
+     <div class="PamphletWidget clearfix colelem temp_no_id" data-orig-id="pamphletu500"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u501"><!-- none box -->
+       <div class="popup_anchor temp_no_id" data-orig-id="u502popup">
+        <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u502"><!-- simple frame --></div>
        </div>
-       <div class="popup_anchor temp_no_id" data-orig-id="u505popup">
-        <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u505"><!-- stack box -->
-         <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u506"><!-- group -->
-          <a class="block anim_swing" href="index.html#features"><!-- Block link tag --></a>
-          <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu36267"><!-- vertical box -->
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36282"><!-- horizontal box -->
-            <div class="MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" data-orig-id="u36285"><!-- horizontal box -->
-             <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36288-4"><!-- content -->
-              <span class="placeholder" data-placeholder-for="u36288-4_0_content"><!-- placeholder node --></span>
-             </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u505popup">
+       <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u505"><!-- stack box -->
+        <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u506"><!-- group -->
+         <a class="block anim_swing" href="index.html#features"><!-- Block link tag --></a>
+         <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu36267"><!-- vertical box -->
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36282"><!-- horizontal box -->
+           <div class="MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" data-orig-id="u36285"><!-- horizontal box -->
+            <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36288-4"><!-- content -->
+             <span class="placeholder" data-placeholder-for="u36288-4_0_content"><!-- placeholder node --></span>
             </div>
            </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36289"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#aboutus" data-orig-id="u36292"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36293-4"><!-- content --><span class="placeholder" data-placeholder-for="u36293-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36275"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#blogpost" data-orig-id="u36276"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36277-4"><!-- content --><span class="placeholder" data-placeholder-for="u36277-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36296"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#contactus" data-orig-id="u36297"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36298-4"><!-- content --><span class="placeholder" data-placeholder-for="u36298-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36268"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u36269"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36271-4"><!-- content --><span class="placeholder" data-placeholder-for="u36271-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-          </nav>
-         </div>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36289"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#aboutus" data-orig-id="u36292"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36293-4"><!-- content --><span class="placeholder" data-placeholder-for="u36293-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36275"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#blogpost" data-orig-id="u36276"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36277-4"><!-- content --><span class="placeholder" data-placeholder-for="u36277-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36296"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#contactus" data-orig-id="u36297"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36298-4"><!-- content --><span class="placeholder" data-placeholder-for="u36298-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36268"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u36269"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36271-4"><!-- content --><span class="placeholder" data-placeholder-for="u36271-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+         </nav>
         </div>
        </div>
       </div>
      </div>
-     <span class="OLM_H1 clearfix colelem placeholder" data-placeholder-for="u42331-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu42331-4"><!-- group -->
+      <span class="OLM_H1 clearfix grpelem placeholder" data-placeholder-for="u42331-4_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u44346_content"><!-- placeholder node --></span>
+     </div>
      <span class="OLM_H2_02 clearfix colelem placeholder" data-placeholder-for="u42343-4_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu39410"><!-- group -->
-      <span class="grpelem placeholder" data-placeholder-for="u39410_content"><!-- placeholder node --></span>
-      <span class="grpelem placeholder" data-placeholder-for="u39411_content"><!-- placeholder node --></span>
-      <span class="grpelem placeholder" data-placeholder-for="u39412_content"><!-- placeholder node --></span>
-     </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu39239"><!-- group -->
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39239_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39240_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39241_content"><!-- placeholder node --></span>
-     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu39410_content"><!-- placeholder node --></span>
      <span class="museBGSize ose_pre_init colelem placeholder" data-placeholder-for="u16689_content"><!-- placeholder node --></span>
      <span class="museBGSize ose_pre_init colelem placeholder" data-placeholder-for="u16687_content"><!-- placeholder node --></span>
      <span class="museBGSize ose_pre_init colelem placeholder" data-placeholder-for="u16695_content"><!-- placeholder node --></span>
      <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16688_content"><!-- placeholder node --></span>
-     <div class="browser_width colelem" id="u16704-4-bw">
-      <span class="OLM_H1 clearfix ose_pre_init placeholder" data-placeholder-for="u16704-4_content"><!-- placeholder node --></span>
-     </div>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44403-4_content"><!-- placeholder node --></span>
      <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16703_content"><!-- placeholder node --></span>
     </div>
     <span class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init placeholder" data-placeholder-for="u21005_content"><!-- placeholder node --></span>
     <div class="verticalspacer" data-offset-top="4019" data-content-above-spacer="4019" data-content-below-spacer="558"></div>
     <span class="anchor_item grpelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu16690-4"><!-- column -->
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u16690-4_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu44391-4"><!-- column -->
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44391-4_content"><!-- placeholder node --></span>
      <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16691_content"><!-- placeholder node --></span>
      <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43826-7_content"><!-- placeholder node --></span>
      <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16697_content"><!-- placeholder node --></span>
      <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43827-7_content"><!-- placeholder node --></span>
      <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16706_content"><!-- placeholder node --></span>
      <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43828-7_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u16698-4_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44367-4_content"><!-- placeholder node --></span>
      <span class="rgba-background clearfix ose_pre_init colelem placeholder" data-placeholder-for="u43825-10_content"><!-- placeholder node --></span>
-     <div class="browser_width colelem" id="u16707-4-bw">
-      <span class="OLM_H1 clearfix ose_pre_init placeholder" data-placeholder-for="u16707-4_content"><!-- placeholder node --></span>
-     </div>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44379-4_content"><!-- placeholder node --></span>
      <span class="browser_width colelem placeholder" data-placeholder-for="u38248-bw_content"><!-- placeholder node --></span>
     </div>
    </div>
   </div>
   <div class="breakpoint" id="bp_360" data-max-width="360"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu39107"><!-- column -->
-     <span class="size_fixed colelem placeholder" data-placeholder-for="u39107_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem" id="pu44346"><!-- column -->
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u44346_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="aboutus_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="blogpost_content"><!-- placeholder node --></span>
@@ -528,23 +513,23 @@ html, body {
      <span class="museBGSize ose_pre_init colelem placeholder" data-placeholder-for="u16687_content"><!-- placeholder node --></span>
      <span class="museBGSize ose_pre_init colelem placeholder" data-placeholder-for="u16695_content"><!-- placeholder node --></span>
      <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16688_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u16704-4_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44403-4_content"><!-- placeholder node --></span>
      <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16703_content"><!-- placeholder node --></span>
     </div>
     <span class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init placeholder" data-placeholder-for="u21005_content"><!-- placeholder node --></span>
     <div class="verticalspacer" data-offset-top="4068" data-content-above-spacer="4067" data-content-below-spacer="397"></div>
     <span class="anchor_item grpelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu16690-4"><!-- column -->
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u16690-4_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu44391-4"><!-- column -->
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44391-4_content"><!-- placeholder node --></span>
      <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16691_content"><!-- placeholder node --></span>
      <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43826-7_content"><!-- placeholder node --></span>
      <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16697_content"><!-- placeholder node --></span>
      <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43827-7_content"><!-- placeholder node --></span>
      <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16706_content"><!-- placeholder node --></span>
      <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43828-7_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u16698-4_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44367-4_content"><!-- placeholder node --></span>
      <span class="rgba-background clearfix ose_pre_init colelem placeholder" data-placeholder-for="u43825-10_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u16707-4_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44379-4_content"><!-- placeholder node --></span>
      <span class="browser_width colelem placeholder" data-placeholder-for="u38248-bw_content"><!-- placeholder node --></span>
     </div>
    </div>
@@ -577,61 +562,61 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1080', '#bp_609', '#bp_360'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#pamphletu500', ['#bp_infinity', '#bp_1080', '#bp_609', '#bp_360'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu500 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_360').one('muse_this_bp_activate', function(){
-$('#u16689').registerOpacityScrollEffect([{"in":[-Infinity,467.6],"fade":50,"opacity":0},{"in":[467.6,467.6],"opacity":100},{"in":[467.6,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16687').registerOpacityScrollEffect([{"in":[-Infinity,812.8],"fade":50,"opacity":0},{"in":[812.8,812.8],"opacity":100},{"in":[812.8,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16695').registerOpacityScrollEffect([{"in":[-Infinity,1158.7],"fade":50,"opacity":0},{"in":[1158.7,1158.7],"opacity":100},{"in":[1158.7,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16688').registerOpacityScrollEffect([{"in":[-Infinity,2186.5],"fade":50,"opacity":40},{"in":[2186.5,2186.5],"opacity":100},{"in":[2186.5,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
-$('#u16704-4').registerOpacityScrollEffect([{"in":[-Infinity,2466.25],"fade":50,"opacity":0},{"in":[2466.25,2466.25],"opacity":100},{"in":[2466.25,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
-$('#u16703').registerOpacityScrollEffect([{"in":[-Infinity,2797.95],"fade":50,"opacity":50},{"in":[2797.95,2797.95],"opacity":100},{"in":[2797.95,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
-$('#u21005').registerPositionScrollEffect([{"in":[-Infinity,1015.55],"speed":[0,2]},{"in":[1015.55,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
-$('#u21005').registerOpacityScrollEffect([{"in":[-Infinity,1015.55],"fade":500,"opacity":100},{"in":[1015.55,1015.55],"opacity":100},{"in":[1015.55,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16690-4').registerOpacityScrollEffect([{"in":[-Infinity,340.85],"fade":246,"opacity":0},{"in":[340.85,340.85],"opacity":100},{"in":[340.85,Infinity],"fade":2507.8,"opacity":0}], $(this)); /* scroll effect */
-$('#u16698-4').registerOpacityScrollEffect([{"in":[-Infinity,1488.45],"fade":12,"opacity":0},{"in":[1488.45,1488.45],"opacity":100},{"in":[1488.45,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
-$('#u43825-10').registerOpacityScrollEffect([{"in":[-Infinity,1609.65],"fade":108,"opacity":50},{"in":[1609.65,1609.65],"opacity":100},{"in":[1609.65,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
-$('#u16707-4').registerOpacityScrollEffect([{"in":[-Infinity,2046.1],"fade":50,"opacity":0},{"in":[2046.1,2046.1],"opacity":100},{"in":[2046.1,Infinity],"fade":1649.4,"opacity":0}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
 $('#bp_infinity').one('muse_this_bp_activate', function(){
-$('#u16689').registerOpacityScrollEffect([{"in":[-Infinity,670],"fade":50,"opacity":0},{"in":[670,670],"opacity":100},{"in":[670,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16687').registerOpacityScrollEffect([{"in":[-Infinity,670],"fade":50,"opacity":0},{"in":[670,670],"opacity":100},{"in":[670,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16695').registerOpacityScrollEffect([{"in":[-Infinity,669.95],"fade":50,"opacity":0},{"in":[669.95,669.95],"opacity":100},{"in":[669.95,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16688').registerOpacityScrollEffect([{"in":[-Infinity,1622.35],"fade":50,"opacity":40},{"in":[1622.35,1622.35],"opacity":100},{"in":[1622.35,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
-$('#u16704-4').registerOpacityScrollEffect([{"in":[-Infinity,2000],"fade":50,"opacity":0},{"in":[2000,2000],"opacity":100},{"in":[2000,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
-$('#u16703').registerOpacityScrollEffect([{"in":[-Infinity,2392.15],"fade":50,"opacity":50},{"in":[2392.15,2392.15],"opacity":100},{"in":[2392.15,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
-$('#u21005').registerPositionScrollEffect([{"in":[-Infinity,743.75],"speed":[0,2]},{"in":[743.75,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
-$('#u21005').registerOpacityScrollEffect([{"in":[-Infinity,743.75],"fade":500,"opacity":100},{"in":[743.75,743.75],"opacity":100},{"in":[743.75,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16690-4').registerOpacityScrollEffect([{"in":[-Infinity,501],"fade":246,"opacity":0},{"in":[501,501],"opacity":100},{"in":[501,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
-$('#u16698-4').registerOpacityScrollEffect([{"in":[-Infinity,1001],"fade":12,"opacity":0},{"in":[1001,1001],"opacity":100},{"in":[1001,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
-$('#u43825-10').registerOpacityScrollEffect([{"in":[-Infinity,1161],"fade":108,"opacity":50},{"in":[1161,1161],"opacity":100},{"in":[1161,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
-$('#u16707-4').registerOpacityScrollEffect([{"in":[-Infinity,1451],"fade":50,"opacity":0},{"in":[1451,1451],"opacity":100},{"in":[1451,Infinity],"fade":1649.4,"opacity":0}], $(this)); /* scroll effect */
+$('#u16689').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,670]},{"opacity":100,"in":[670,670]},{"opacity":100,"fade":50,"in":[670,Infinity]}], $(this)); /* scroll effect */
+$('#u16687').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,670]},{"opacity":100,"in":[670,670]},{"opacity":100,"fade":50,"in":[670,Infinity]}], $(this)); /* scroll effect */
+$('#u16695').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,669.95]},{"opacity":100,"in":[669.95,669.95]},{"opacity":100,"fade":50,"in":[669.95,Infinity]}], $(this)); /* scroll effect */
+$('#u16688').registerOpacityScrollEffect([{"opacity":40,"fade":50,"in":[-Infinity,1622.35]},{"opacity":100,"in":[1622.35,1622.35]},{"opacity":80,"fade":1200,"in":[1622.35,Infinity]}], $(this)); /* scroll effect */
+$('#u44403-4').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,2008.95]},{"opacity":100,"in":[2008.95,2008.95]},{"opacity":80,"fade":900,"in":[2008.95,Infinity]}], $(this)); /* scroll effect */
+$('#u16703').registerOpacityScrollEffect([{"opacity":50,"fade":50,"in":[-Infinity,2392.15]},{"opacity":100,"in":[2392.15,2392.15]},{"opacity":100,"fade":600,"in":[2392.15,Infinity]}], $(this)); /* scroll effect */
+$('#u21005').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,743.75]},{"speed":[0,0],"in":[743.75,Infinity]}], $(this)); /* scroll effect */
+$('#u21005').registerOpacityScrollEffect([{"opacity":100,"fade":500,"in":[-Infinity,743.75]},{"opacity":100,"in":[743.75,743.75]},{"opacity":100,"fade":50,"in":[743.75,Infinity]}], $(this)); /* scroll effect */
+$('#u44391-4').registerOpacityScrollEffect([{"opacity":0,"fade":246,"in":[-Infinity,516.9]},{"opacity":100,"in":[516.9,516.9]},{"opacity":50,"fade":2507.8,"in":[516.9,Infinity]}], $(this)); /* scroll effect */
+$('#u44367-4').registerOpacityScrollEffect([{"opacity":0,"fade":12,"in":[-Infinity,1024.5]},{"opacity":100,"in":[1024.5,1024.5]},{"opacity":80,"fade":700,"in":[1024.5,Infinity]}], $(this)); /* scroll effect */
+$('#u43825-10').registerOpacityScrollEffect([{"opacity":100,"fade":108,"in":[-Infinity,1161]},{"opacity":100,"in":[1161,1161]},{"opacity":100,"fade":1600,"in":[1161,Infinity]}], $(this)); /* scroll effect */
+$('#u44379-4').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,1473]},{"opacity":100,"in":[1473,1473]},{"opacity":100,"fade":1649.4,"in":[1473,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
-$('#bp_1080').one('muse_this_bp_activate', function(){
-$('#u16689').registerOpacityScrollEffect([{"in":[-Infinity,472.45],"fade":50,"opacity":0},{"in":[472.45,472.45],"opacity":100},{"in":[472.45,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16687').registerOpacityScrollEffect([{"in":[-Infinity,472.45],"fade":50,"opacity":0},{"in":[472.45,472.45],"opacity":100},{"in":[472.45,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16695').registerOpacityScrollEffect([{"in":[-Infinity,472.45],"fade":50,"opacity":0},{"in":[472.45,472.45],"opacity":100},{"in":[472.45,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16688').registerOpacityScrollEffect([{"in":[-Infinity,1248.5],"fade":50,"opacity":40},{"in":[1248.5,1248.5],"opacity":100},{"in":[1248.5,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
-$('#u16704-4').registerOpacityScrollEffect([{"in":[-Infinity,1805.55],"fade":50,"opacity":0},{"in":[1805.55,1805.55],"opacity":100},{"in":[1805.55,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
-$('#u16703').registerOpacityScrollEffect([{"in":[-Infinity,1939.75],"fade":50,"opacity":50},{"in":[1939.75,1939.75],"opacity":100},{"in":[1939.75,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
-$('#u21005').registerPositionScrollEffect([{"in":[-Infinity,800],"speed":[0,1]},{"in":[800,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
-$('#u21005').registerOpacityScrollEffect([{"in":[-Infinity,800],"fade":500,"opacity":100},{"in":[800,800],"opacity":100},{"in":[800,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16690-4').registerOpacityScrollEffect([{"in":[-Infinity,434.9],"fade":246,"opacity":0},{"in":[434.9,434.9],"opacity":100},{"in":[434.9,Infinity],"fade":2507.8,"opacity":0}], $(this)); /* scroll effect */
-$('#u16698-4').registerOpacityScrollEffect([{"in":[-Infinity,931.55],"fade":12,"opacity":0},{"in":[931.55,931.55],"opacity":100},{"in":[931.55,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
-$('#u43825-10').registerOpacityScrollEffect([{"in":[-Infinity,840],"fade":108,"opacity":50},{"in":[840,840],"opacity":100},{"in":[840,Infinity],"fade":1600,"opacity":80}], $(this)); /* scroll effect */
-$('#u16707-4').registerOpacityScrollEffect([{"in":[-Infinity,1267.15],"fade":50,"opacity":0},{"in":[1267.15,1267.15],"opacity":100},{"in":[1267.15,Infinity],"fade":1649.4,"opacity":0}], $(this)); /* scroll effect */
+$('#bp_360').one('muse_this_bp_activate', function(){
+$('#u16689').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,467.6]},{"opacity":100,"in":[467.6,467.6]},{"opacity":100,"fade":50,"in":[467.6,Infinity]}], $(this)); /* scroll effect */
+$('#u16687').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,812.8]},{"opacity":100,"in":[812.8,812.8]},{"opacity":100,"fade":50,"in":[812.8,Infinity]}], $(this)); /* scroll effect */
+$('#u16695').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,1158.7]},{"opacity":100,"in":[1158.7,1158.7]},{"opacity":100,"fade":50,"in":[1158.7,Infinity]}], $(this)); /* scroll effect */
+$('#u16688').registerOpacityScrollEffect([{"opacity":40,"fade":50,"in":[-Infinity,2186.5]},{"opacity":100,"in":[2186.5,2186.5]},{"opacity":80,"fade":1200,"in":[2186.5,Infinity]}], $(this)); /* scroll effect */
+$('#u44403-4').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,2476.25]},{"opacity":100,"in":[2476.25,2476.25]},{"opacity":80,"fade":900,"in":[2476.25,Infinity]}], $(this)); /* scroll effect */
+$('#u16703').registerOpacityScrollEffect([{"opacity":50,"fade":50,"in":[-Infinity,2797.95]},{"opacity":100,"in":[2797.95,2797.95]},{"opacity":100,"fade":600,"in":[2797.95,Infinity]}], $(this)); /* scroll effect */
+$('#u21005').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,841.75]},{"speed":[0,0],"in":[841.75,Infinity]}], $(this)); /* scroll effect */
+$('#u21005').registerOpacityScrollEffect([{"opacity":100,"fade":500,"in":[-Infinity,841.75]},{"opacity":100,"in":[841.75,841.75]},{"opacity":100,"fade":50,"in":[841.75,Infinity]}], $(this)); /* scroll effect */
+$('#u44391-4').registerOpacityScrollEffect([{"opacity":0,"fade":246,"in":[-Infinity,350.85]},{"opacity":100,"in":[350.85,350.85]},{"opacity":0,"fade":2507.8,"in":[350.85,Infinity]}], $(this)); /* scroll effect */
+$('#u44367-4').registerOpacityScrollEffect([{"opacity":0,"fade":12,"in":[-Infinity,1498.45]},{"opacity":100,"in":[1498.45,1498.45]},{"opacity":80,"fade":700,"in":[1498.45,Infinity]}], $(this)); /* scroll effect */
+$('#u43825-10').registerOpacityScrollEffect([{"opacity":50,"fade":108,"in":[-Infinity,1609.65]},{"opacity":100,"in":[1609.65,1609.65]},{"opacity":50,"fade":1600,"in":[1609.65,Infinity]}], $(this)); /* scroll effect */
+$('#u44379-4').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,2056.1]},{"opacity":100,"in":[2056.1,2056.1]},{"opacity":0,"fade":1649.4,"in":[2056.1,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_609').one('muse_this_bp_activate', function(){
-$('#u16689').registerOpacityScrollEffect([{"in":[-Infinity,767.9],"fade":50,"opacity":0},{"in":[767.9,767.9],"opacity":100},{"in":[767.9,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16687').registerOpacityScrollEffect([{"in":[-Infinity,1081.15],"fade":50,"opacity":0},{"in":[1081.15,1081.15],"opacity":100},{"in":[1081.15,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16695').registerOpacityScrollEffect([{"in":[-Infinity,1400.2],"fade":50,"opacity":0},{"in":[1400.2,1400.2],"opacity":100},{"in":[1400.2,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16688').registerOpacityScrollEffect([{"in":[-Infinity,2164.85],"fade":50,"opacity":40},{"in":[2164.85,2164.85],"opacity":100},{"in":[2164.85,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
-$('#u16704-4').registerOpacityScrollEffect([{"in":[-Infinity,2500],"fade":50,"opacity":0},{"in":[2500,2500],"opacity":100},{"in":[2500,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
-$('#u16703').registerOpacityScrollEffect([{"in":[-Infinity,2700],"fade":50,"opacity":50},{"in":[2700,2700],"opacity":100},{"in":[2700,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
-$('#u21005').registerPositionScrollEffect([{"in":[-Infinity,754.85],"speed":[0,2]},{"in":[754.85,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
-$('#u21005').registerOpacityScrollEffect([{"in":[-Infinity,754.85],"fade":500,"opacity":100},{"in":[754.85,754.85],"opacity":100},{"in":[754.85,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
-$('#u16690-4').registerOpacityScrollEffect([{"in":[-Infinity,708.15],"fade":246,"opacity":0},{"in":[708.15,708.15],"opacity":100},{"in":[708.15,Infinity],"fade":2507.8,"opacity":0}], $(this)); /* scroll effect */
-$('#u16698-4').registerOpacityScrollEffect([{"in":[-Infinity,1722.4],"fade":12,"opacity":0},{"in":[1722.4,1722.4],"opacity":100},{"in":[1722.4,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
-$('#u43825-10').registerOpacityScrollEffect([{"in":[-Infinity,1850],"fade":108,"opacity":50},{"in":[1850,1850],"opacity":100},{"in":[1850,Infinity],"fade":1600,"opacity":80}], $(this)); /* scroll effect */
-$('#u16707-4').registerOpacityScrollEffect([{"in":[-Infinity,2160.9],"fade":50,"opacity":0},{"in":[2160.9,2160.9],"opacity":100},{"in":[2160.9,Infinity],"fade":1649.4,"opacity":0}], $(this)); /* scroll effect */
+$('#u16689').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,767.9]},{"opacity":100,"in":[767.9,767.9]},{"opacity":100,"fade":50,"in":[767.9,Infinity]}], $(this)); /* scroll effect */
+$('#u16687').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,1081.15]},{"opacity":100,"in":[1081.15,1081.15]},{"opacity":100,"fade":50,"in":[1081.15,Infinity]}], $(this)); /* scroll effect */
+$('#u16695').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,1400.2]},{"opacity":100,"in":[1400.2,1400.2]},{"opacity":100,"fade":50,"in":[1400.2,Infinity]}], $(this)); /* scroll effect */
+$('#u16688').registerOpacityScrollEffect([{"opacity":40,"fade":50,"in":[-Infinity,2164.85]},{"opacity":100,"in":[2164.85,2164.85]},{"opacity":80,"fade":1200,"in":[2164.85,Infinity]}], $(this)); /* scroll effect */
+$('#u44403-4').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,2510]},{"opacity":100,"in":[2510,2510]},{"opacity":80,"fade":900,"in":[2510,Infinity]}], $(this)); /* scroll effect */
+$('#u16703').registerOpacityScrollEffect([{"opacity":50,"fade":50,"in":[-Infinity,2700]},{"opacity":100,"in":[2700,2700]},{"opacity":100,"fade":600,"in":[2700,Infinity]}], $(this)); /* scroll effect */
+$('#u21005').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,753]},{"speed":[0,0],"in":[753,Infinity]}], $(this)); /* scroll effect */
+$('#u21005').registerOpacityScrollEffect([{"opacity":100,"fade":500,"in":[-Infinity,753]},{"opacity":100,"in":[753,753]},{"opacity":100,"fade":50,"in":[753,Infinity]}], $(this)); /* scroll effect */
+$('#u44391-4').registerOpacityScrollEffect([{"opacity":0,"fade":246,"in":[-Infinity,718.15]},{"opacity":100,"in":[718.15,718.15]},{"opacity":0,"fade":2507.8,"in":[718.15,Infinity]}], $(this)); /* scroll effect */
+$('#u44367-4').registerOpacityScrollEffect([{"opacity":0,"fade":12,"in":[-Infinity,1732.4]},{"opacity":100,"in":[1732.4,1732.4]},{"opacity":80,"fade":700,"in":[1732.4,Infinity]}], $(this)); /* scroll effect */
+$('#u43825-10').registerOpacityScrollEffect([{"opacity":50,"fade":108,"in":[-Infinity,1850]},{"opacity":100,"in":[1850,1850]},{"opacity":80,"fade":1600,"in":[1850,Infinity]}], $(this)); /* scroll effect */
+$('#u44379-4').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,2170.9]},{"opacity":100,"in":[2170.9,2170.9]},{"opacity":0,"fade":1649.4,"in":[2170.9,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_1080').one('muse_this_bp_activate', function(){
+$('#u16689').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,472.45]},{"opacity":100,"in":[472.45,472.45]},{"opacity":100,"fade":50,"in":[472.45,Infinity]}], $(this)); /* scroll effect */
+$('#u16687').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,472.45]},{"opacity":100,"in":[472.45,472.45]},{"opacity":100,"fade":50,"in":[472.45,Infinity]}], $(this)); /* scroll effect */
+$('#u16695').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,472.45]},{"opacity":100,"in":[472.45,472.45]},{"opacity":100,"fade":50,"in":[472.45,Infinity]}], $(this)); /* scroll effect */
+$('#u16688').registerOpacityScrollEffect([{"opacity":40,"fade":50,"in":[-Infinity,1248.5]},{"opacity":100,"in":[1248.5,1248.5]},{"opacity":80,"fade":1200,"in":[1248.5,Infinity]}], $(this)); /* scroll effect */
+$('#u44403-4').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,1815.55]},{"opacity":100,"in":[1815.55,1815.55]},{"opacity":80,"fade":900,"in":[1815.55,Infinity]}], $(this)); /* scroll effect */
+$('#u16703').registerOpacityScrollEffect([{"opacity":50,"fade":50,"in":[-Infinity,1939.75]},{"opacity":100,"in":[1939.75,1939.75]},{"opacity":100,"fade":600,"in":[1939.75,Infinity]}], $(this)); /* scroll effect */
+$('#u21005').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,800]},{"speed":[0,0],"in":[800,Infinity]}], $(this)); /* scroll effect */
+$('#u21005').registerOpacityScrollEffect([{"opacity":100,"fade":500,"in":[-Infinity,800]},{"opacity":100,"in":[800,800]},{"opacity":100,"fade":50,"in":[800,Infinity]}], $(this)); /* scroll effect */
+$('#u44391-4').registerOpacityScrollEffect([{"opacity":0,"fade":246,"in":[-Infinity,444.9]},{"opacity":100,"in":[444.9,444.9]},{"opacity":0,"fade":2507.8,"in":[444.9,Infinity]}], $(this)); /* scroll effect */
+$('#u44367-4').registerOpacityScrollEffect([{"opacity":0,"fade":12,"in":[-Infinity,941.55]},{"opacity":100,"in":[941.55,941.55]},{"opacity":80,"fade":700,"in":[941.55,Infinity]}], $(this)); /* scroll effect */
+$('#u43825-10').registerOpacityScrollEffect([{"opacity":50,"fade":108,"in":[-Infinity,840]},{"opacity":100,"in":[840,840]},{"opacity":80,"fade":1600,"in":[840,Infinity]}], $(this)); /* scroll effect */
+$('#u44379-4').registerOpacityScrollEffect([{"opacity":0,"fade":50,"in":[-Infinity,1277.15]},{"opacity":100,"in":[1277.15,1277.15]},{"opacity":0,"fade":1649.4,"in":[1277.15,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -651,7 +636,7 @@ return}
 this.resize=function(){if('object-fit' in document.body.style)return;var w=this.videoEl.videoWidth,h=this.videoEl.videoHeight;var videoRatio=(w/h).toFixed(2);var container=this.opt.container,containerStyles=global.getComputedStyle(container),minW=parseInt(containerStyles.getPropertyValue('width')),minH=parseInt(containerStyles.getPropertyValue('height'));if(containerStyles.getPropertyValue('box-sizing')!=='border-box'){var paddingTop=containerStyles.getPropertyValue('padding-top'),paddingBottom=containerStyles.getPropertyValue('padding-bottom'),paddingLeft=containerStyles.getPropertyValue('padding-left'),paddingRight=containerStyles.getPropertyValue('padding-right');paddingTop=parseInt(paddingTop);paddingBottom=parseInt(paddingBottom);paddingLeft=parseInt(paddingLeft);paddingRight=parseInt(paddingRight);minW+=paddingLeft+paddingRight;minH+=paddingTop+paddingBottom}
 var widthRatio=minW/w;var heightRatio=minH/h;if(widthRatio>heightRatio){var new_width=minW;var new_height=Math.ceil(new_width/videoRatio)}
 else{var new_height=minH;var new_width=Math.ceil(new_height*videoRatio)}
-this.videoEl.style.width=new_width+'px';this.videoEl.style.height=new_height+'px'}}}(window));(function(){var bv=new Bideo();bv.init({videoEl:document.querySelector('#background_video'),container:document.querySelector('body'),resize:!0,autoplay:true,isMobile:window.matchMedia('(max-width: 1080px)').matches,playButton:document.querySelector('#play'),pauseButton:document.querySelector('#pause'),src:[{src:'https://youtu.be/u9bIe9R7Yc4',type:'video/mp4'},{src:'Enter WebM URL',type:'video/webm;codecs="vp8, vorbis"'}],onLoad:function(){objectFitVideos(document.getElementById('background_video'));document.querySelector('#video_cover').style.display='none'}})}())
+this.videoEl.style.width=new_width+'px';this.videoEl.style.height=new_height+'px'}}}(window));(function(){var bv=new Bideo();bv.init({videoEl:document.querySelector('#background_video'),container:document.querySelector('body'),resize:!0,autoplay:true,isMobile:window.matchMedia('(max-width: 1880px)').matches,playButton:document.querySelector('#play'),pauseButton:document.querySelector('#pause'),src:[{src:'assets/olympic-way.mp4',type:'video/mp4'},{src:'Add File',type:'video/webm;codecs="vp8, vorbis"'}],onLoad:function(){objectFitVideos(document.getElementById('background_video'));document.querySelector('#video_cover').style.display='none'}})}())
 </script>
 
    </body>

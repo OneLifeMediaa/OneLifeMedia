@@ -1,19 +1,20 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1566510284622">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1566602810457">
   <folder name="css">
     <file name="site_global.css" crc="138391288"/>
-    <file name="master_header.css" crc="3848676854" ref="index"/>
+    <file name="master_header.css" crc="3933128764" ref="index"/>
     <file name="nomq_preview_master_header.css" crc="3824530138" ref="index"/>
-    <file name="master_header-footer.css" crc="4109312045" ref="index"/>
+    <file name="master_header-footer.css" crc="188574661" ref="index"/>
     <file name="nomq_preview_master_header-footer.css" crc="3824530138" ref="index"/>
-    <file name="master_video-background.css" crc="3996271086" ref="index"/>
+    <file name="master_video-background.css" crc="163498642" ref="index"/>
     <file name="nomq_preview_master_video-background.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="330125814" ref="index"/>
-    <file name="nomq_index.css" crc="3883950729" ref="index"/>
+    <file name="index.css" crc="4032382710" ref="index"/>
+    <file name="nomq_index.css" crc="3932227492" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="play-02.png" crc="167282103" seo="true" mt="1566070196000"/>
     <file name="wembleystadiumstill.jpg" crc="31904772" seo="true" mt="1565966878000"/>
     <file name="pause.png" crc="433852192" seo="true" mt="1566069788000"/>
+    <file name="olympic-way.mp4" crc="258901442" seo="true" mt="1565300895000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -82,5 +83,5 @@
     <file name="inblaq-music-ft-image-u16697-fr.jpg" crc="3920127395" ref="index"/>
     <file name="colourzoo-ft-image-u16706-fr.jpg" crc="247532768" ref="index"/>
   </folder>
-  <file name="index.html" crc="470485713" seo="true" mt="1566510207224" redirect="true"/>
+  <file name="index.html" crc="4197091445" seo="true" mt="1566602648410" redirect="true"/>
 </manifest>
