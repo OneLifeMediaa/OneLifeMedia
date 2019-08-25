@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1566743009982">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1566743725465">
   <folder name="css">
     <file name="site_global.css" crc="291321687"/>
     <file name="master_video-background.css" crc="4289984630" ref="index"/>
@@ -7,7 +7,7 @@
     <file name="nomq_preview_master_header.css" crc="3824530138" ref="index"/>
     <file name="master_header-footer.css" crc="215546036" ref="index"/>
     <file name="nomq_preview_master_header-footer.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="97801016" ref="index"/>
+    <file name="index.css" crc="205907163" ref="index"/>
     <file name="nomq_index.css" crc="4206835449" ref="index"/>
   </folder>
   <folder name="assets">
@@ -82,5 +82,5 @@
     <file name="inblaq-music-ft-image-u16697-fr.jpg" crc="3920127395" ref="index"/>
     <file name="colourzoo-ft-image-u16706-fr.jpg" crc="247532768" ref="index"/>
   </folder>
-  <file name="index.html" crc="516816392" seo="true" mt="1566742975804" redirect="true"/>
+  <file name="index.html" crc="46018175" seo="true" mt="1566743713934" redirect="true"/>
 </manifest>
