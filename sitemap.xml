@@ -2,13 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://one-lifemedia.com/index.html</loc>
-    <lastmod>2019-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://one-lifemedia.com/assets/wembleystadiumstill.jpg</loc>
-    <lastmod>2019-08-16</lastmod>
+    <lastmod>2019-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -21,18 +15,6 @@
   <url>
     <loc>http://one-lifemedia.com/assets/pause.png</loc>
     <lastmod>2019-08-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://one-lifemedia.com/assets/olympic-way.mp4</loc>
-    <lastmod>2019-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://one-lifemedia.com/assets/olm_videobackground.mp4</loc>
-    <lastmod>2019-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
