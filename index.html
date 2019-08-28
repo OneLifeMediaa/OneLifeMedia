@@ -16,17 +16,17 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   
   <title>Home</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3933392814"/>
-  <link rel="stylesheet" type="text/css" href="css/master_menu.css?crc=151854468"/>
-  <link rel="stylesheet" type="text/css" href="css/master_header.css?crc=4084799528"/>
-  <link rel="stylesheet" type="text/css" href="css/master_footer.css?crc=325052593"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4249142605" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3849043456"/>
+  <link rel="stylesheet" type="text/css" href="css/master_menu.css?crc=355587538"/>
+  <link rel="stylesheet" type="text/css" href="css/master_header.css?crc=4002958667"/>
+  <link rel="stylesheet" type="text/css" href="css/master_footer.css?crc=187593925"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=439984920" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_menu.css?crc=3824530138"/>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_header.css?crc=3853637980"/>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_footer.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=281802316" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4105314257" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -89,7 +89,7 @@ html, body {
 
 #video_controls {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
@@ -124,7 +124,7 @@ html, body {
 
   <!--HTML Widget code-->
   
-<div id='container'><video id='background_video' loop muted   playsinline></video><div id='video_cover'></div><div id='overlay'></div><div id='video_controls'><span id='play'><img src='assets/play-02.png'></span><span id='pause'><img src='assets/pause.png'></span></div></div>
+<div id='container'><video id='background_video' loop muted preload playsinline></video><div id='video_cover'></div><div id='overlay'></div><div id='video_controls'><span id='play'><img src='assets/play-02.png'></span><span id='pause'><img src='assets/pause.png'></span></div></div>
 
   
   <div class="breakpoint active" id="bp_infinity" data-min-width="1081"><!-- responsive breakpoint node -->
@@ -160,11 +160,7 @@ html, body {
            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem" id="u49678" href="index.html#about"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u49679-4"><!-- content --><p class="shared_content" data-content-guid="u49679-4_0_content">ABOUT US</p></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem" id="u49663"><!-- horizontal box -->
-           <div class="MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u49664"><!-- horizontal box -->
-            <div class="MenuItemLabel clearfix grpelem" id="u49665-4"><!-- content -->
-             <p class="shared_content" data-content-guid="u49665-4_0_content">BLOG POST</p>
-            </div>
-           </div>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem" id="u49664" href="index.html#blog"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u49665-4"><!-- content --><p class="shared_content" data-content-guid="u49665-4_0_content">BLOG POST</p></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem" id="u49670"><!-- horizontal box -->
            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem" id="u49671" href="index.html#contact-us"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u49673-4"><!-- content --><p class="shared_content" data-content-guid="u49673-4_0_content">CONTACT US</p></div></a>
@@ -205,7 +201,7 @@ html, body {
        <div class="rgba-background rounded-corners OLM_P clearfix grpelem" id="u85015-7"><!-- content -->
         <p>InBlaq Music is our musical arm where&nbsp; we have been producing commercial music for over 20 years. We are based in North West London, England and we produce&nbsp; Hip-Hiop, Rap, R&amp;B, as well as Dance Music. Click <a class="nonblock" href="https://inblaq-online.blogspot.com/">here</a> to find out more about at our latest projects.</p>
        </div>
-       <a class="nonblock nontext museBGSize clearfix grpelem" id="u85018" href="https://inblaq-online.blogspot.com/"><!-- group --><div class="museBGSize rounded-corners ose_pre_init grpelem" id="u85021"><!-- simple frame --></div></a>
+       <a class="nonblock nontext museBGSize clearfix grpelem" id="u85018" href="https://inblaq-online.blogspot.com/"><!-- group --><div class="museBGSize ose_pre_init grpelem" id="u85021"><!-- simple frame --></div></a>
       </div>
       <div class="rgba-background rounded-corners OLM_P clearfix grpelem shared_content" id="u85014-7" data-content-guid="u85014-7_content"><!-- content -->
        <p>ColourZoo is the website that sells images and&nbsp; products created by One-Life Media. Like Stock photograph, and video footage from a variety of location spanning numerous themes and styles at compatible rates.&nbsp; Click <a class="nonblock" href="https://onelifemediaa.github.io/colourzoo/index.html">here</a> to find out more.</p>
@@ -213,8 +209,8 @@ html, body {
       <div class="rgba-background rounded-corners OLM_P clearfix grpelem shared_content" id="u85016-7" data-content-guid="u85016-7_content"><!-- content -->
        <p>One-Life Media is our creative umbrella where we produce digital content. Photography, video's, animation, website build and design as well as creating digital articles for websites and blogs. We also do social media marketing. Click <a class="nonblock" href="https://www.one-lifemedia.com">here</a> to check out our blog to see what we’ve been up to lately.</p>
       </div>
-      <a class="nonblock nontext museBGSize clearfix grpelem shared_content" id="u85017" href="https://onelifemediaa.github.io/colourzoo/index.html" data-content-guid="u85017_content"><!-- group --><div class="museBGSize rounded-corners ose_pre_init grpelem" id="u85020"><!-- simple frame --></div></a>
-      <a class="nonblock nontext museBGSize clearfix grpelem shared_content" id="u85019" href="https://www.one-lifemedia.com" target="_blank" data-content-guid="u85019_content"><!-- group --><div class="museBGSize rounded-corners ose_pre_init grpelem" id="u85022"><!-- simple frame --></div></a>
+      <a class="nonblock nontext museBGSize clearfix grpelem shared_content" id="u85017" href="https://onelifemediaa.github.io/colourzoo/index.html" data-content-guid="u85017_content"><!-- group --><div class="museBGSize ose_pre_init grpelem" id="u85020"><!-- simple frame --></div></a>
+      <a class="nonblock nontext museBGSize clearfix grpelem shared_content" id="u85019" href="https://www.one-lifemedia.com" target="_blank" data-content-guid="u85019_content"><!-- group --><div class="museBGSize ose_pre_init grpelem" id="u85022"><!-- simple frame --></div></a>
      </div>
      <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u85129-4" data-content-guid="u85129-4_content"><!-- content -->
       <h1>ABOUT US</h1>
@@ -240,11 +236,11 @@ html, body {
       <h1>CONTACT US</h1>
      </div>
      <div class="ose_pre_init colelem shared_content" id="u85191" data-content-guid="u85191_content"><!-- custom html -->
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemNHJYo2VjIrIMGTXmorh8wzqhq9bYtak-XxemUOuyQHvDOw/viewform?embedded=true" width="300" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemNHJYo2VjIrIMGTXmorh8wzqhq9bYtak-XxemUOuyQHvDOw/viewform?embedded=true" width="300" height="800" frameborder="0" marginheight="3" marginwidth="3">Loading…</iframe>
      </div>
     </div>
     <a class="nonblock nontext anim_swing museBGSize mse_pre_init shared_content" id="u92821" href="index.html#home-page-anchore" data-content-guid="u92821_content"><!-- simple frame --></a>
-    <div class="verticalspacer" data-offset-top="3335" data-content-above-spacer="3335" data-content-below-spacer="482"></div>
+    <div class="verticalspacer" data-offset-top="3335" data-content-above-spacer="3378" data-content-below-spacer="482"></div>
     <div class="browser_width grpelem shared_content" id="u83563-bw" data-content-guid="u83563-bw_content">
      <div id="u83563"><!-- column -->
       <div class="clearfix" id="u83563_align_to_page">
@@ -297,13 +293,14 @@ html, body {
   </div>
   <div class="breakpoint" id="bp_1080" data-min-width="913" data-max-width="1080"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="anchor_item grpelem placeholder" data-placeholder-for="contact-us_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="phome-page-anchore"><!-- column -->
-     <span class="anchor_item colelem placeholder" data-placeholder-for="home-page-anchore_content"><!-- placeholder node --></span>
+    <span class="anchor_item grpelem placeholder" data-placeholder-for="home-page-anchore_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem" id="pfeatures"><!-- column -->
      <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="blog_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="about_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="contact-us_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
     </div>
-    <span class="anchor_item grpelem placeholder" data-placeholder-for="about_content"><!-- placeholder node --></span>
     <span class="size_fixed grpelem placeholder" data-placeholder-for="u49344_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="ppamphletu49657"><!-- column -->
      <div class="PamphletWidget clearfix colelem temp_no_id" data-orig-id="pamphletu49657"><!-- none box -->
@@ -324,11 +321,7 @@ html, body {
            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49663"><!-- horizontal box -->
-           <div class="MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" data-orig-id="u49664"><!-- horizontal box -->
-            <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content -->
-             <span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span>
-            </div>
-           </div>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#blog" data-orig-id="u49664"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content --><span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49670"><!-- horizontal box -->
            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
@@ -354,8 +347,7 @@ html, body {
      <span class="ose_pre_init colelem placeholder" data-placeholder-for="u85191_content"><!-- placeholder node --></span>
     </div>
     <span class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init placeholder" data-placeholder-for="u92821_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="3441" data-content-above-spacer="3441" data-content-below-spacer="490"></div>
-    <span class="anchor_item grpelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="3441" data-content-above-spacer="3477" data-content-below-spacer="490"></div>
     <span class="browser_width grpelem placeholder" data-placeholder-for="u83563-bw_content"><!-- placeholder node --></span>
    </div>
   </div>
@@ -365,7 +357,6 @@ html, body {
      <span class="anchor_item colelem placeholder" data-placeholder-for="home-page-anchore_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="contact-us_content"><!-- placeholder node --></span>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
     </div>
     <div class="clearfix grpelem" id="pblog"><!-- column -->
      <span class="anchor_item colelem placeholder" data-placeholder-for="blog_content"><!-- placeholder node --></span>
@@ -385,23 +376,19 @@ html, body {
          <a class="block anim_swing" href="index.html#blog"><!-- Block link tag --></a>
          <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu49662"><!-- vertical box -->
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49684"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49677"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49663"><!-- horizontal box -->
-           <div class="MenuItem MenuItemWithSubMenu borderbox clearfix grpelem temp_no_id" data-orig-id="u49664"><!-- horizontal box -->
-            <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content -->
-             <span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span>
-            </div>
-           </div>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#blog" data-orig-id="u49664"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content --><span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49670"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49691"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
          </nav>
         </div>
@@ -431,7 +418,8 @@ html, body {
      <span class="ose_pre_init colelem placeholder" data-placeholder-for="u85191_content"><!-- placeholder node --></span>
     </div>
     <span class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init placeholder" data-placeholder-for="u92821_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="4566" data-content-above-spacer="4599" data-content-below-spacer="496"></div>
+    <div class="verticalspacer" data-offset-top="4566" data-content-above-spacer="4566" data-content-below-spacer="495"></div>
+    <span class="anchor_item grpelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
     <span class="browser_width grpelem placeholder" data-placeholder-for="u83563-bw_content"><!-- placeholder node --></span>
    </div>
   </div>
@@ -440,51 +428,43 @@ html, body {
     <span class="anchor_item grpelem placeholder" data-placeholder-for="about_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="phome-page-anchore"><!-- column -->
      <span class="anchor_item colelem placeholder" data-placeholder-for="home-page-anchore_content"><!-- placeholder node --></span>
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u49344_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="blog_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="contact-us_content"><!-- placeholder node --></span>
-    </div>
-    <div class="clearfix grpelem" id="pfeatures"><!-- column -->
-     <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
     </div>
-    <div class="clearfix grpelem" id="pppamphletu49657"><!-- column -->
-     <div class="clearfix colelem temp_no_id" data-orig-id="ppamphletu49657"><!-- group -->
-      <div class="PamphletWidget clearfix grpelem temp_no_id" data-orig-id="pamphletu49657"><!-- none box -->
-       <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u49698"><!-- none box -->
-        <div class="popup_anchor temp_no_id" data-orig-id="u49699popup">
-         <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u49699"><!-- simple frame --></div>
-        </div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppamphletu49657"><!-- column -->
+     <div class="PamphletWidget clearfix colelem temp_no_id" data-orig-id="pamphletu49657"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u49698"><!-- none box -->
+       <div class="popup_anchor temp_no_id" data-orig-id="u49699popup">
+        <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u49699"><!-- simple frame --></div>
        </div>
-       <div class="popup_anchor temp_no_id" data-orig-id="u49660popup">
-        <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u49660"><!-- stack box -->
-         <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u49661"><!-- group -->
-          <a class="block anim_swing" href="index.html#blog"><!-- Block link tag --></a>
-          <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu49662"><!-- vertical box -->
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49684"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49677"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49663"><!-- horizontal box -->
-            <div class="MenuItem MenuItemWithSubMenu borderbox clearfix grpelem temp_no_id" data-orig-id="u49664"><!-- horizontal box -->
-             <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content -->
-              <span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span>
-             </div>
-            </div>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49670"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49691"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-          </nav>
-         </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u49660popup">
+       <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u49660"><!-- stack box -->
+        <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u49661"><!-- group -->
+         <a class="block anim_swing" href="index.html#blog"><!-- Block link tag --></a>
+         <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu49662"><!-- vertical box -->
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49684"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49677"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49663"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#blog" data-orig-id="u49664"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content --><span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49670"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49691"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+         </nav>
         </div>
        </div>
       </div>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u49344_content"><!-- placeholder node --></span>
      </div>
      <span class="OLM_H1-Mobile clearfix colelem placeholder" data-placeholder-for="u90380-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
@@ -543,23 +523,19 @@ html, body {
          <a class="block anim_swing" href="index.html#blog"><!-- Block link tag --></a>
          <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu49662"><!-- vertical box -->
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49684"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49677"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49663"><!-- horizontal box -->
-           <div class="MenuItem MenuItemWithSubMenu borderbox clearfix grpelem temp_no_id" data-orig-id="u49664"><!-- horizontal box -->
-            <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content -->
-             <span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span>
-            </div>
-           </div>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#blog" data-orig-id="u49664"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content --><span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49670"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49691"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
          </nav>
         </div>
@@ -619,72 +595,72 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1080', '#bp_912', '#bp_609', '#bp_360'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#pamphletu49657', ['#bp_infinity', '#bp_1080', '#bp_912', '#bp_609', '#bp_360'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu49657 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_912').one('muse_this_bp_activate', function(){
-$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,396.78],"opacity":0,"fade":246},{"in":[396.78,396.78],"opacity":100},{"in":[396.78,Infinity],"opacity":50,"fade":2507.8}], $(this)); /* scroll effect */
-$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,567.77],"opacity":0,"fade":50},{"in":[567.77,567.77],"opacity":100},{"in":[567.77,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,1108.22],"opacity":0,"fade":50},{"in":[1108.22,1108.22],"opacity":100},{"in":[1108.22,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,1640.62],"opacity":0,"fade":50},{"in":[1640.62,1640.62],"opacity":100},{"in":[1640.62,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,2018.67],"opacity":0,"fade":50},{"in":[2018.67,2018.67],"opacity":100},{"in":[2018.67,Infinity],"opacity":100,"fade":1649.4}], $(this)); /* scroll effect */
-$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,2168.98],"opacity":40,"fade":50},{"in":[2168.98,2168.98],"opacity":100},{"in":[2168.98,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
-$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,2666.7],"opacity":0,"fade":12},{"in":[2666.7,2666.7],"opacity":100},{"in":[2666.7,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
-$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,2867.75],"opacity":20,"fade":108},{"in":[2867.75,2867.75],"opacity":100},{"in":[2867.75,Infinity],"opacity":50,"fade":1600}], $(this)); /* scroll effect */
-$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,3041.77],"opacity":0,"fade":50},{"in":[3041.77,3041.77],"opacity":100},{"in":[3041.77,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
-$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3465.48],"opacity":50,"fade":50},{"in":[3465.48,3465.48],"opacity":100},{"in":[3465.48,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
-$('#u92821').registerPositionScrollEffect([{"in":[-Infinity,711.5],"speed":[0,0]},{"in":[711.5,Infinity],"speed":[0,1]}], $(this)); /* scroll effect */
-$('#u92821').registerOpacityScrollEffect([{"in":[-Infinity,711.5],"opacity":0,"fade":50},{"in":[711.5,711.5],"opacity":100},{"in":[711.5,Infinity],"opacity":0,"fade":50}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
-$('#bp_infinity').one('muse_this_bp_activate', function(){
-$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,374.22],"opacity":0,"fade":246},{"in":[374.22,374.22],"opacity":100},{"in":[374.22,Infinity],"opacity":50,"fade":2507.8}], $(this)); /* scroll effect */
-$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,558.42],"opacity":0,"fade":50},{"in":[558.42,558.42],"opacity":100},{"in":[558.42,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,558.37],"opacity":0,"fade":50},{"in":[558.37,558.37],"opacity":100},{"in":[558.37,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,558.42],"opacity":0,"fade":50},{"in":[558.42,558.42],"opacity":100},{"in":[558.42,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,879.6],"opacity":0,"fade":12},{"in":[879.6,879.6],"opacity":100},{"in":[879.6,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
-$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,1066.6],"opacity":20,"fade":108},{"in":[1066.6,1066.6],"opacity":100},{"in":[1066.6,Infinity],"opacity":50,"fade":1600}], $(this)); /* scroll effect */
-$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,1334.65],"opacity":0,"fade":50},{"in":[1334.65,1334.65],"opacity":100},{"in":[1334.65,Infinity],"opacity":100,"fade":1649.4}], $(this)); /* scroll effect */
-$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,1457.95],"opacity":40,"fade":50},{"in":[1457.95,1457.95],"opacity":100},{"in":[1457.95,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
-$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,1833.57],"opacity":0,"fade":50},{"in":[1833.57,1833.57],"opacity":100},{"in":[1833.57,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
-$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,2234.78],"opacity":50,"fade":50},{"in":[2234.78,2234.78],"opacity":100},{"in":[2234.78,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
-$('#u92821').registerPositionScrollEffect([{"in":[-Infinity,689.2],"speed":[0,1]},{"in":[689.2,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
 $('#bp_609').one('muse_this_bp_activate', function(){
-$('#u88064-4').registerOpacityScrollEffect([{"in":[-Infinity,336.55],"opacity":0,"fade":246},{"in":[336.55,336.55],"opacity":100},{"in":[336.55,Infinity],"opacity":50,"fade":2507.8}], $(this)); /* scroll effect */
-$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,455.92],"opacity":0,"fade":50},{"in":[455.92,455.92],"opacity":100},{"in":[455.92,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,978.52],"opacity":0,"fade":50},{"in":[978.52,978.52],"opacity":100},{"in":[978.52,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,1501.02],"opacity":0,"fade":50},{"in":[1501.02,1501.02],"opacity":100},{"in":[1501.02,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u88079-4').registerOpacityScrollEffect([{"in":[-Infinity,1903.57],"opacity":0,"fade":50},{"in":[1903.57,1903.57],"opacity":100},{"in":[1903.57,Infinity],"opacity":100,"fade":1649.4}], $(this)); /* scroll effect */
-$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,2046.48],"opacity":40,"fade":50},{"in":[2046.48,2046.48],"opacity":100},{"in":[2046.48,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
-$('#u88095-4').registerOpacityScrollEffect([{"in":[-Infinity,2566.8],"opacity":0,"fade":12},{"in":[2566.8,2566.8],"opacity":100},{"in":[2566.8,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
-$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,2759.45],"opacity":20,"fade":108},{"in":[2759.45,2759.45],"opacity":100},{"in":[2759.45,Infinity],"opacity":50,"fade":1600}], $(this)); /* scroll effect */
-$('#u88110-4').registerOpacityScrollEffect([{"in":[-Infinity,2991.77],"opacity":0,"fade":50},{"in":[2991.77,2991.77],"opacity":100},{"in":[2991.77,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
-$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3359.52],"opacity":50,"fade":50},{"in":[3359.52,3359.52],"opacity":100},{"in":[3359.52,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
-$('#u92821').registerPositionScrollEffect([{"in":[-Infinity,651.6],"speed":[0,0]},{"in":[651.6,Infinity],"speed":[0,1]}], $(this)); /* scroll effect */
+$('#u88064-4').registerOpacityScrollEffect([{"in":[-Infinity,336.55],"fade":246,"opacity":0},{"opacity":100,"in":[336.55,336.55]},{"in":[336.55,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
+$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,455.92],"fade":50,"opacity":0},{"opacity":100,"in":[455.92,455.92]},{"in":[455.92,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,978.52],"fade":50,"opacity":0},{"opacity":100,"in":[978.52,978.52]},{"in":[978.52,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,1501.02],"fade":50,"opacity":0},{"opacity":100,"in":[1501.02,1501.02]},{"in":[1501.02,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u88079-4').registerOpacityScrollEffect([{"in":[-Infinity,1903.57],"fade":50,"opacity":0},{"opacity":100,"in":[1903.57,1903.57]},{"in":[1903.57,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,2046.48],"fade":50,"opacity":40},{"opacity":100,"in":[2046.48,2046.48]},{"in":[2046.48,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
+$('#u88095-4').registerOpacityScrollEffect([{"in":[-Infinity,2545.05],"fade":12,"opacity":0},{"opacity":100,"in":[2545.05,2545.05]},{"in":[2545.05,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,2759.45],"fade":108,"opacity":20},{"opacity":100,"in":[2759.45,2759.45]},{"in":[2759.45,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
+$('#u88110-4').registerOpacityScrollEffect([{"in":[-Infinity,2991.77],"fade":50,"opacity":0},{"opacity":100,"in":[2991.77,2991.77]},{"in":[2991.77,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3359.52],"fade":50,"opacity":50},{"opacity":100,"in":[3359.52,3359.52]},{"in":[3359.52,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,651.6]},{"speed":[0,0],"in":[651.6,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_360').one('muse_this_bp_activate', function(){
-$('#u88064-4').registerOpacityScrollEffect([{"in":[-Infinity,410.18],"opacity":0,"fade":246},{"in":[410.18,410.18],"opacity":100},{"in":[410.18,Infinity],"opacity":50,"fade":2507.8}], $(this)); /* scroll effect */
-$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,542.47],"opacity":0,"fade":50},{"in":[542.47,542.47],"opacity":100},{"in":[542.47,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,1088.27],"opacity":0,"fade":50},{"in":[1088.27,1088.27],"opacity":100},{"in":[1088.27,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,1631.77],"opacity":0,"fade":50},{"in":[1631.77,1631.77],"opacity":100},{"in":[1631.77,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u88079-4').registerOpacityScrollEffect([{"in":[-Infinity,1979.92],"opacity":0,"fade":50},{"in":[1979.92,1979.92],"opacity":100},{"in":[1979.92,Infinity],"opacity":100,"fade":1649.4}], $(this)); /* scroll effect */
-$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,2104.76],"opacity":40,"fade":50},{"in":[2104.76,2104.76],"opacity":100},{"in":[2104.76,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
-$('#u88095-4').registerOpacityScrollEffect([{"in":[-Infinity,2553.85],"opacity":0,"fade":12},{"in":[2553.85,2553.85],"opacity":100},{"in":[2553.85,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
-$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,2721.13],"opacity":20,"fade":108},{"in":[2721.13,2721.13],"opacity":100},{"in":[2721.13,Infinity],"opacity":50,"fade":1600}], $(this)); /* scroll effect */
-$('#u88110-4').registerOpacityScrollEffect([{"in":[-Infinity,2998.31],"opacity":0,"fade":50},{"in":[2998.31,2998.31],"opacity":100},{"in":[2998.31,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
-$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3358.01],"opacity":50,"fade":50},{"in":[3358.01,3358.01],"opacity":100},{"in":[3358.01,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
-$('#u92821').registerPositionScrollEffect([{"in":[-Infinity,694],"speed":[0,0]},{"in":[694,Infinity],"speed":[0,1]}], $(this)); /* scroll effect */
+$('#u88064-4').registerOpacityScrollEffect([{"in":[-Infinity,410.18],"fade":246,"opacity":0},{"opacity":100,"in":[410.18,410.18]},{"in":[410.18,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
+$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,542.47],"fade":50,"opacity":0},{"opacity":100,"in":[542.47,542.47]},{"in":[542.47,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,1088.27],"fade":50,"opacity":0},{"opacity":100,"in":[1088.27,1088.27]},{"in":[1088.27,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,1631.77],"fade":50,"opacity":0},{"opacity":100,"in":[1631.77,1631.77]},{"in":[1631.77,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u88079-4').registerOpacityScrollEffect([{"in":[-Infinity,1969.92],"fade":50,"opacity":0},{"opacity":100,"in":[1969.92,1969.92]},{"in":[1969.92,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,2104.76],"fade":50,"opacity":40},{"opacity":100,"in":[2104.76,2104.76]},{"in":[2104.76,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
+$('#u88095-4').registerOpacityScrollEffect([{"in":[-Infinity,2542.85],"fade":12,"opacity":0},{"opacity":100,"in":[2542.85,2542.85]},{"in":[2542.85,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,2721.13],"fade":108,"opacity":20},{"opacity":100,"in":[2721.13,2721.13]},{"in":[2721.13,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
+$('#u88110-4').registerOpacityScrollEffect([{"in":[-Infinity,2998.31],"fade":50,"opacity":0},{"opacity":100,"in":[2998.31,2998.31]},{"in":[2998.31,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3358.01],"fade":50,"opacity":50},{"opacity":100,"in":[3358.01,3358.01]},{"in":[3358.01,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,694]},{"speed":[0,0],"in":[694,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_912').one('muse_this_bp_activate', function(){
+$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,396.78],"fade":246,"opacity":0},{"opacity":100,"in":[396.78,396.78]},{"in":[396.78,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
+$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,567.77],"fade":50,"opacity":0},{"opacity":100,"in":[567.77,567.77]},{"in":[567.77,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,1108.22],"fade":50,"opacity":0},{"opacity":100,"in":[1108.22,1108.22]},{"in":[1108.22,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,1640.62],"fade":50,"opacity":0},{"opacity":100,"in":[1640.62,1640.62]},{"in":[1640.62,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,2018.67],"fade":50,"opacity":0},{"opacity":100,"in":[2018.67,2018.67]},{"in":[2018.67,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,2168.98],"fade":50,"opacity":40},{"opacity":100,"in":[2168.98,2168.98]},{"in":[2168.98,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
+$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,2666.7],"fade":12,"opacity":0},{"opacity":100,"in":[2666.7,2666.7]},{"in":[2666.7,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,2867.75],"fade":108,"opacity":20},{"opacity":100,"in":[2867.75,2867.75]},{"in":[2867.75,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
+$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,3041.77],"fade":50,"opacity":0},{"opacity":100,"in":[3041.77,3041.77]},{"in":[3041.77,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3465.48],"fade":50,"opacity":50},{"opacity":100,"in":[3465.48,3465.48]},{"in":[3465.48,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,700.5]},{"speed":[0,0],"in":[700.5,Infinity]}], $(this)); /* scroll effect */
+$('#u92821').registerOpacityScrollEffect([{"in":[-Infinity,700.5],"fade":50,"opacity":0},{"opacity":100,"in":[700.5,700.5]},{"in":[700.5,Infinity],"fade":50,"opacity":0}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_1080').one('muse_this_bp_activate', function(){
-$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,439.43],"opacity":0,"fade":246},{"in":[439.43,439.43],"opacity":100},{"in":[439.43,Infinity],"opacity":50,"fade":2507.8}], $(this)); /* scroll effect */
-$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,590.42],"opacity":0,"fade":50},{"in":[590.42,590.42],"opacity":100},{"in":[590.42,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,590.67],"opacity":0,"fade":50},{"in":[590.67,590.67],"opacity":100},{"in":[590.67,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,590.72],"opacity":0,"fade":50},{"in":[590.72,590.72],"opacity":100},{"in":[590.72,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,945.65],"opacity":0,"fade":12},{"in":[945.65,945.65],"opacity":100},{"in":[945.65,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
-$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,1145.65],"opacity":20,"fade":108},{"in":[1145.65,1145.65],"opacity":100},{"in":[1145.65,Infinity],"opacity":50,"fade":1600}], $(this)); /* scroll effect */
-$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,1381.07],"opacity":0,"fade":50},{"in":[1381.07,1381.07],"opacity":100},{"in":[1381.07,Infinity],"opacity":100,"fade":1649.4}], $(this)); /* scroll effect */
-$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,1531.38],"opacity":40,"fade":50},{"in":[1531.38,1531.38],"opacity":100},{"in":[1531.38,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
-$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,1950.27],"opacity":0,"fade":50},{"in":[1950.27,1950.27],"opacity":100},{"in":[1950.27,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
-$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,2340.48],"opacity":50,"fade":50},{"in":[2340.48,2340.48],"opacity":100},{"in":[2340.48,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
-$('#u92821').registerPositionScrollEffect([{"in":[-Infinity,1292.75],"speed":[0,1]},{"in":[1292.75,Infinity],"speed":[0,1]}], $(this)); /* scroll effect */
-$('#u92821').registerOpacityScrollEffect([{"in":[-Infinity,1292.75],"opacity":0,"fade":543.15},{"in":[1292.75,1292.75],"opacity":100},{"in":[1292.75,Infinity],"opacity":0,"fade":50}], $(this)); /* scroll effect */
+$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,439.43],"fade":246,"opacity":0},{"opacity":100,"in":[439.43,439.43]},{"in":[439.43,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
+$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,590.42],"fade":50,"opacity":0},{"opacity":100,"in":[590.42,590.42]},{"in":[590.42,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,590.67],"fade":50,"opacity":0},{"opacity":100,"in":[590.67,590.67]},{"in":[590.67,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,590.72],"fade":50,"opacity":0},{"opacity":100,"in":[590.72,590.72]},{"in":[590.72,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,945.65],"fade":12,"opacity":0},{"opacity":100,"in":[945.65,945.65]},{"in":[945.65,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,1145.65],"fade":108,"opacity":20},{"opacity":100,"in":[1145.65,1145.65]},{"in":[1145.65,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
+$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,1381.07],"fade":50,"opacity":0},{"opacity":100,"in":[1381.07,1381.07]},{"in":[1381.07,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,1531.38],"fade":50,"opacity":40},{"opacity":100,"in":[1531.38,1531.38]},{"in":[1531.38,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
+$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,1950.27],"fade":50,"opacity":0},{"opacity":100,"in":[1950.27,1950.27]},{"in":[1950.27,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,2340.48],"fade":50,"opacity":50},{"opacity":100,"in":[2340.48,2340.48]},{"in":[2340.48,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,1292.75]},{"speed":[0,0],"in":[1292.75,Infinity]}], $(this)); /* scroll effect */
+$('#u92821').registerOpacityScrollEffect([{"in":[-Infinity,1292.75],"fade":543.15,"opacity":0},{"opacity":100,"in":[1292.75,1292.75]},{"in":[1292.75,Infinity],"fade":50,"opacity":0}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_infinity').one('muse_this_bp_activate', function(){
+$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,374.22],"fade":246,"opacity":0},{"opacity":100,"in":[374.22,374.22]},{"in":[374.22,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
+$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,558.42],"fade":50,"opacity":0},{"opacity":100,"in":[558.42,558.42]},{"in":[558.42,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,558.37],"fade":50,"opacity":0},{"opacity":100,"in":[558.37,558.37]},{"in":[558.37,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,558.42],"fade":50,"opacity":0},{"opacity":100,"in":[558.42,558.42]},{"in":[558.42,Infinity],"fade":50,"opacity":100}], $(this)); /* scroll effect */
+$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,879.6],"fade":12,"opacity":0},{"opacity":100,"in":[879.6,879.6]},{"in":[879.6,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,1066.6],"fade":108,"opacity":20},{"opacity":100,"in":[1066.6,1066.6]},{"in":[1066.6,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
+$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,1313.65],"fade":50,"opacity":0},{"opacity":100,"in":[1313.65,1313.65]},{"in":[1313.65,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,1457.95],"fade":50,"opacity":40},{"opacity":100,"in":[1457.95,1457.95]},{"in":[1457.95,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
+$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,1848.57],"fade":50,"opacity":0},{"opacity":100,"in":[1848.57,1848.57]},{"in":[1848.57,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,2234.78],"fade":50,"opacity":50},{"opacity":100,"in":[2234.78,2234.78]},{"in":[2234.78,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,679.65]},{"speed":[0,0],"in":[679.65,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
