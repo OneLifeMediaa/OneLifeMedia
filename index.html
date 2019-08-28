@@ -16,17 +16,17 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   
   <title>Home</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=291321687"/>
-  <link rel="stylesheet" type="text/css" href="css/master_video-background-copy.css?crc=4261855402"/>
-  <link rel="stylesheet" type="text/css" href="css/master_header.css?crc=389747110"/>
-  <link rel="stylesheet" type="text/css" href="css/master_header-footer.css?crc=4233983846"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4274064293" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3933392814"/>
+  <link rel="stylesheet" type="text/css" href="css/master_menu.css?crc=151854468"/>
+  <link rel="stylesheet" type="text/css" href="css/master_header.css?crc=4084799528"/>
+  <link rel="stylesheet" type="text/css" href="css/master_footer.css?crc=325052593"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4249142605" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_video-background-copy.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_header.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_header-footer.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=13936507" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_menu.css?crc=3824530138"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_header.css?crc=3853637980"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_footer.css?crc=3824530138"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=281802316" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -39,7 +39,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <![endif]-->
     <!--custom head HTML-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>.fa {  padding: 10px;  font-size: 12px;  width: 30px;  text-align: center;  text-decoration: none !important; }/* Add a hover effect if you want */.fa:hover { color: rgb(251,91,15)!important;}/* Set a specific color for each brand *//* Facebook */.fa-facebook {  background:rgba(0,0,0,0) !important;  color: rgb(255,255,255) !important;  }/* Twitter */.fa-twitter { background:rgba(0,0,0,0) !important;  color: rgb(255,255,255) !important;}/* Instagram*/.fa-instagram {  background:rgba(0,0,0,0) !important;  color: rgb(255,255,255) !important;  }</style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>.fa {  padding: 10px;  font-size: 12px;  width: 30px;  text-align: center;  text-decoration: none !important; }/* Add a hover effect if you want */.fa:hover { color: rgb(251,91,15)!important;}/* Set a specific color for each brand *//* Facebook */.fa-facebook {  background:rgba(0,0,0,0) !important;  color: rgb(202,202,202) !important;  }/* Twitter */.fa-twitter { background:rgba(0,0,0,0) !important;  color: rgb(202,202,202) !important;}/* Facebook */.fa-instagram {  background:rgba(0,0,0,0) !important;  color: rgb(202,202,202) !important;  }</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>.fa {  padding: 10px;  font-size: 12px;  width: 30px;  text-align: center;  text-decoration: none !important; }/* Add a hover effect if you want */.fa:hover { color: rgb(251,91,15)!important;}/* Set a specific color for each brand *//* Facebook */.fa-facebook {  background:rgba(0,0,0,0) !important;  color: rgb(255,255,255) !important;  }/* Twitter */.fa-twitter { background:rgba(0,0,0,0) !important;  color: rgb(255,255,255) !important;}/* Instagram*/.fa-instagram {  background:rgba(0,0,0,0) !important;  color: rgb(255,255,255) !important;  }</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>.fa {  padding: 10px;  font-size: 12px;  width: 30px;  text-align: center;  text-decoration: none !important; }/* Add a hover effect if you want */.fa:hover { color: rgb(251,91,15)!important;}/* Set a specific color for each brand *//* Facebook */.fa-facebook {  background:rgba(0,0,0,0) !important;  color: rgb(255,255,255) !important;  }/* Twitter */.fa-twitter { background:rgba(0,0,0,0) !important;  color: rgb(255,255,255) !important;}/* Instagram*/.fa-instagram {  background:rgba(0,0,0,0) !important;  color: rgb(255,255,255) !important;  }</style>
   <!--HTML Widget code-->
   
 <style>
@@ -78,7 +79,7 @@ html, body {
 #overlay{
   position: absolute;
   top: 0; right: 0; left: 0; bottom: 0;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.5);
   background-color: null;
   background-image: url('Add File');
   background-image: url(Replace with Base64 Data from Patternify.com.);
@@ -88,7 +89,7 @@ html, body {
 
 #video_controls {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
@@ -123,131 +124,103 @@ html, body {
 
   <!--HTML Widget code-->
   
-<div id='container'><video id='background_video' loop muted preload playsinline></video><div id='video_cover'></div><div id='overlay'></div><div id='video_controls'><span id='play'><img src='assets/play-02.png'></span><span id='pause'><img src='assets/pause.png'></span></div></div>
+<div id='container'><video id='background_video' loop muted   playsinline></video><div id='video_cover'></div><div id='overlay'></div><div id='video_controls'><span id='play'><img src='assets/play-02.png'></span><span id='pause'><img src='assets/pause.png'></span></div></div>
 
   
   <div class="breakpoint active" id="bp_infinity" data-min-width="1081"><!-- responsive breakpoint node -->
    <div class="clearfix" id="page"><!-- group -->
-    <div class="clearfix grpelem shared_content" id="pfeatures" data-content-guid="pfeatures_content"><!-- column -->
+    <div class="clearfix grpelem" id="phome-page-anchore"><!-- column -->
+     <a class="anchor_item colelem shared_content" id="home-page-anchore" data-content-guid="home-page-anchore_content"></a>
      <a class="anchor_item colelem shared_content" id="features" data-content-guid="features_content"></a>
-     <a class="anchor_item colelem shared_content" id="aboutus" data-content-guid="aboutus_content"></a>
-     <a class="anchor_item colelem shared_content" id="blogpost" data-content-guid="blogpost_content"></a>
-     <a class="anchor_item colelem shared_content" id="contactus" data-content-guid="contactus_content"></a>
+     <a class="anchor_item colelem shared_content" id="about" data-content-guid="about_content"></a>
+     <a class="anchor_item colelem shared_content" id="blog" data-content-guid="blog_content"></a>
+     <a class="anchor_item colelem shared_content" id="contact-us" data-content-guid="contact-us_content"></a>
+     <a class="anchor_item colelem shared_content" id="subscribe" data-content-guid="subscribe_content"></a>
     </div>
-    <a class="anchor_item grpelem shared_content" id="home" data-content-guid="home_content"></a>
-    <div class="clearfix grpelem" id="pppamphletu500"><!-- column -->
-     <div class="clearfix colelem" id="ppamphletu500"><!-- group -->
-      <div class="PamphletWidget clearfix grpelem" id="pamphletu500"><!-- none box -->
-       <div class="ThumbGroup clearfix grpelem" id="u501"><!-- none box -->
-        <div class="popup_anchor" id="u502popup">
-         <div class="Thumb popup_element museBGSize" id="u502"><!-- simple frame --></div>
-        </div>
+    <div class="size_fixed grpelem shared_content" id="u49344" data-content-guid="u49344_content"><!-- custom html -->
+     
+
+    </div>
+    <div class="clearfix grpelem" id="ppamphletu49657"><!-- column -->
+     <div class="PamphletWidget clearfix colelem" id="pamphletu49657"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u49698"><!-- none box -->
+       <div class="popup_anchor" id="u49699popup">
+        <div class="Thumb popup_element museBGSize" id="u49699"><!-- simple frame --></div>
        </div>
-       <div class="popup_anchor" id="u505popup">
-        <div class="ContainerGroup clearfix" id="u505"><!-- stack box -->
-         <div class="pointer_cursor Container invi clearfix grpelem" id="u506"><!-- group -->
-          <a class="block anim_swing" href="index.html#features"><!-- Block link tag --></a>
-          <nav class="MenuBar clearfix grpelem" id="menuu36267"><!-- vertical box -->
-           <div class="MenuItemContainer clearfix colelem" id="u36282"><!-- horizontal box -->
-            <div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u36285"><!-- horizontal box -->
-             <div class="MenuItemLabel clearfix grpelem" id="u36288-4"><!-- content -->
-              <p class="shared_content" data-content-guid="u36288-4_0_content">FEATURED</p>
-             </div>
+      </div>
+      <div class="popup_anchor" id="u49660popup">
+       <div class="ContainerGroup clearfix" id="u49660"><!-- stack box -->
+        <div class="pointer_cursor Container invi clearfix grpelem" id="u49661"><!-- group -->
+         <a class="block anim_swing" href="index.html#blog"><!-- Block link tag --></a>
+         <nav class="MenuBar clearfix grpelem" id="menuu49662"><!-- vertical box -->
+          <div class="MenuItemContainer clearfix colelem" id="u49684"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem" id="u49685" href="index.html#features"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u49686-4"><!-- content --><p class="shared_content" data-content-guid="u49686-4_0_content">FEATURED</p></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem" id="u49677"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem" id="u49678" href="index.html#about"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u49679-4"><!-- content --><p class="shared_content" data-content-guid="u49679-4_0_content">ABOUT US</p></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem" id="u49663"><!-- horizontal box -->
+           <div class="MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u49664"><!-- horizontal box -->
+            <div class="MenuItemLabel clearfix grpelem" id="u49665-4"><!-- content -->
+             <p class="shared_content" data-content-guid="u49665-4_0_content">BLOG POST</p>
             </div>
            </div>
-           <div class="MenuItemContainer clearfix colelem" id="u36289"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem" id="u36292" href="index.html#aboutus"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u36293-4"><!-- content --><p class="shared_content" data-content-guid="u36293-4_0_content">ABOUT US</p></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem" id="u36275"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem" id="u36276" href="index.html#blogpost"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u36277-4"><!-- content --><p class="shared_content" data-content-guid="u36277-4_0_content">BLOG POST</p></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem" id="u36296"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem" id="u36297" href="index.html#contactus"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u36298-4"><!-- content --><p class="shared_content" data-content-guid="u36298-4_0_content">CONTACT US</p></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem" id="u36268"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem" id="u36269" href="index.html#subscribe"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u36271-4"><!-- content --><p class="shared_content" data-content-guid="u36271-4_0_content">SUBSCRIBE</p></div></a>
-           </div>
-          </nav>
-         </div>
+          </div>
+          <div class="MenuItemContainer clearfix colelem" id="u49670"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem" id="u49671" href="index.html#contact-us"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u49673-4"><!-- content --><p class="shared_content" data-content-guid="u49673-4_0_content">CONTACT US</p></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem" id="u49691"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem" id="u49692" href="index.html#subscribe"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u49695-4"><!-- content --><p class="shared_content" data-content-guid="u49695-4_0_content">SUBSCRIBE</p></div></a>
+          </div>
+         </nav>
         </div>
        </div>
       </div>
-      <div class="size_fixed grpelem shared_content" id="u44812" data-content-guid="u44812_content"><!-- custom html -->
-       
-
-      </div>
      </div>
-     <div class="OLM_H1 clearfix colelem shared_content" id="u42331-4" data-content-guid="u42331-4_content"><!-- content -->
+     <div class="OLM_H1 clearfix colelem shared_content" id="u52569-4" data-content-guid="u52569-4_content"><!-- content -->
       <h1>ONE-LIFE MEDIA</h1>
      </div>
-     <div class="OLM_H2_02 clearfix colelem shared_content" id="u42343-4" data-content-guid="u42343-4_content"><!-- content -->
-      <h2>DIGITAL CONTENT CREATION</h2>
+     <div class="clearfix colelem shared_content" id="u52576-4" data-content-guid="u52576-4_content"><!-- content -->
+      <p>DIGITAL CONTENT CREATION</p>
      </div>
      <div class="clearfix colelem shared_content" id="pu39410" data-content-guid="pu39410_content"><!-- group -->
-      <div class="grpelem shared_content" id="u39410" data-content-guid="u39410_content"><!-- custom html -->
+      <div class="grpelem" id="u39410"><!-- custom html -->
        <a href="https://www.facebook.com/oLifeMedia/" class="fa fa-facebook" text-align="center"></a>
       </div>
-      <div class="grpelem shared_content" id="u39411" data-content-guid="u39411_content"><!-- custom html -->
+      <div class="grpelem" id="u39411"><!-- custom html -->
        <a href="https://twitter.com/onelifemedia" class="fa fa-twitter" text-align="center"></a>
       </div>
-      <div class="grpelem shared_content" id="u39412" data-content-guid="u39412_content"><!-- custom html -->
+      <div class="grpelem" id="u39412"><!-- custom html -->
        <a href="https://www.instagram.com/olm_insta/" class="fa fa-instagram" text-align="center"></a>
       </div>
-      <a class="nonblock nontext museBGSize grpelem shared_content" id="u39239" href="https://www.one-lifemedia.com" data-content-guid="u39239_content"><!-- simple frame --></a>
-      <a class="nonblock nontext museBGSize grpelem shared_content" id="u39240" href="https://inblaq-online.blogspot.com/" data-content-guid="u39240_content"><!-- simple frame --></a>
-      <a class="nonblock nontext museBGSize grpelem shared_content" id="u39241" href="https://onelifemediaa.github.io/colourzoo/index.html" data-content-guid="u39241_content"><!-- simple frame --></a>
+      <a class="nonblock nontext museBGSize grpelem" id="u39239" href="https://www.one-lifemedia.com"><!-- simple frame --></a>
+      <a class="nonblock nontext museBGSize grpelem" id="u39240" href="https://inblaq-online.blogspot.com/"><!-- simple frame --></a>
+      <a class="nonblock nontext museBGSize grpelem" id="u39241" href="https://onelifemediaa.github.io/colourzoo/index.html"><!-- simple frame --></a>
      </div>
-     <div class="clearfix colelem shared_content" id="pu16689" data-content-guid="pu16689_content"><!-- group -->
-      <div class="museBGSize ose_pre_init grpelem shared_content" id="u16689" data-content-guid="u16689_content"><!-- simple frame --></div>
-      <div class="museBGSize ose_pre_init grpelem shared_content" id="u16687" data-content-guid="u16687_content"><!-- simple frame --></div>
-      <div class="museBGSize ose_pre_init grpelem shared_content" id="u16695" data-content-guid="u16695_content"><!-- simple frame --></div>
-     </div>
-     <div class="ose_pre_init colelem shared_content" id="u16688" data-content-guid="u16688_content"><!-- custom html -->
-      <div class="feedgrabbr_widget" id="fgid_bbb387271ca7690ba41530acf"></div>
-<script>if (typeof (fg_widgets) === "undefined") fg_widgets = new Array(); fg_widgets.push("fgid_bbb387271ca7690ba41530acf");</script>
-<script async src="https://www.feedgrabbr.com/widget/fgwidget.js"></script>
-     </div>
-     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u44403-4" data-content-guid="u44403-4_content"><!-- content -->
-      <h1>CONTACT US</h1>
-     </div>
-     <div class="ose_pre_init colelem shared_content" id="u16703" data-content-guid="u16703_content"><!-- custom html -->
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemNHJYo2VjIrIMGTXmorh8wzqhq9bYtak-XxemUOuyQHvDOw/viewform?embedded=true" width="360" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-     </div>
-    </div>
-    <a class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init shared_content" id="u21005" href="index.html#home" data-content-guid="u21005_content"><!-- simple frame --></a>
-    <div class="verticalspacer" data-offset-top="3493" data-content-above-spacer="3492" data-content-below-spacer="628"></div>
-    <a class="anchor_item grpelem shared_content" id="subscribe" data-content-guid="subscribe_content"></a>
-    <div class="clearfix grpelem shared_content" id="pu44391-4" data-content-guid="pu44391-4_content"><!-- column -->
-     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u44391-4" data-content-guid="u44391-4_content"><!-- content -->
+     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u88049-4" data-content-guid="u88049-4_content"><!-- content -->
       <h1>FEATURES</h1>
      </div>
-     <div class="clearfix colelem" id="pu16691"><!-- group -->
-      <a class="nonblock nontext museBGSize grpelem shared_content" id="u16691" href="https://www.one-lifemedia.com" target="_blank" data-content-guid="u16691_content"><!-- simple frame --></a>
-      <a class="nonblock nontext museBGSize grpelem shared_content" id="u16697" href="https://inblaq-online.blogspot.com/" data-content-guid="u16697_content"><!-- simple frame --></a>
-      <a class="nonblock nontext museBGSize grpelem shared_content" id="u16706" href="https://onelifemediaa.github.io/colourzoo/index.html" data-content-guid="u16706_content"><!-- simple frame --></a>
-     </div>
-     <div class="clearfix colelem" id="pu43826-7"><!-- group -->
-      <div class="rgba-background clearfix grpelem shared_content" id="u43826-7" data-content-guid="u43826-7_content"><!-- content -->
-       <div class="OLM_P" id="u43826-6">
-        <p>One-Life Media is our creative umbrella where we produce digital content. Photography, video's, animation, website build and design as well as creating digital articles for websites and blogs. We also do social media marketing. Click <a class="nonblock" href="https://www.one-lifemedia.com">here</a> to check out our blog to see what we’ve been up to lately.</p>
-       </div>
-      </div>
-      <div class="rgba-background clearfix grpelem shared_content" id="u43827-7" data-content-guid="u43827-7_content"><!-- content -->
-       <div class="OLM_P" id="u43827-6">
+     <div class="clearfix colelem shared_content" id="ppu85015-7" data-content-guid="ppu85015-7_content"><!-- group -->
+      <div class="clearfix grpelem shared_content" id="pu85015-7" data-content-guid="pu85015-7_content"><!-- group -->
+       <div class="rgba-background rounded-corners OLM_P clearfix grpelem" id="u85015-7"><!-- content -->
         <p>InBlaq Music is our musical arm where&nbsp; we have been producing commercial music for over 20 years. We are based in North West London, England and we produce&nbsp; Hip-Hiop, Rap, R&amp;B, as well as Dance Music. Click <a class="nonblock" href="https://inblaq-online.blogspot.com/">here</a> to find out more about at our latest projects.</p>
        </div>
+       <a class="nonblock nontext museBGSize clearfix grpelem" id="u85018" href="https://inblaq-online.blogspot.com/"><!-- group --><div class="museBGSize rounded-corners ose_pre_init grpelem" id="u85021"><!-- simple frame --></div></a>
       </div>
-      <div class="rgba-background clearfix grpelem shared_content" id="u43828-7" data-content-guid="u43828-7_content"><!-- content -->
-       <div class="OLM_P" id="u43828-6">
-        <p>ColourZoo is the website that sells images and&nbsp; products created by One-Life Media. Like Stock photograph, and video footage from a variety of location spanning numerous themes and styles at compatible rates.&nbsp; Click <a class="nonblock" href="https://onelifemediaa.github.io/colourzoo/index.html">here</a> to find out more.</p>
-       </div>
+      <div class="rgba-background rounded-corners OLM_P clearfix grpelem shared_content" id="u85014-7" data-content-guid="u85014-7_content"><!-- content -->
+       <p>ColourZoo is the website that sells images and&nbsp; products created by One-Life Media. Like Stock photograph, and video footage from a variety of location spanning numerous themes and styles at compatible rates.&nbsp; Click <a class="nonblock" href="https://onelifemediaa.github.io/colourzoo/index.html">here</a> to find out more.</p>
       </div>
+      <div class="rgba-background rounded-corners OLM_P clearfix grpelem shared_content" id="u85016-7" data-content-guid="u85016-7_content"><!-- content -->
+       <p>One-Life Media is our creative umbrella where we produce digital content. Photography, video's, animation, website build and design as well as creating digital articles for websites and blogs. We also do social media marketing. Click <a class="nonblock" href="https://www.one-lifemedia.com">here</a> to check out our blog to see what we’ve been up to lately.</p>
+      </div>
+      <a class="nonblock nontext museBGSize clearfix grpelem shared_content" id="u85017" href="https://onelifemediaa.github.io/colourzoo/index.html" data-content-guid="u85017_content"><!-- group --><div class="museBGSize rounded-corners ose_pre_init grpelem" id="u85020"><!-- simple frame --></div></a>
+      <a class="nonblock nontext museBGSize clearfix grpelem shared_content" id="u85019" href="https://www.one-lifemedia.com" target="_blank" data-content-guid="u85019_content"><!-- group --><div class="museBGSize rounded-corners ose_pre_init grpelem" id="u85022"><!-- simple frame --></div></a>
      </div>
-     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u44367-4" data-content-guid="u44367-4_content"><!-- content -->
+     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u85129-4" data-content-guid="u85129-4_content"><!-- content -->
       <h1>ABOUT US</h1>
      </div>
-     <div class="rgba-background clearfix ose_pre_init colelem shared_content" id="u43825-10" data-content-guid="u43825-10_content"><!-- content -->
-      <div class="OLM_P" id="u43825-9">
+     <div class="rgba-background rounded-corners clearfix ose_pre_init colelem shared_content" id="u85128-10" data-content-guid="u85128-10_content"><!-- content -->
+      <div class="OLM_P" id="u85128-9">
        <p>One-Life Media exists because I needed a vehicle through which I could reflect on, showcase, and market my ideas and creations. I have more than a passion for creative and artistic processes. Music, video, graphic design and photography in particular - through theses mediums&nbsp; I like to express my inner feeling and emotion in a way that brings clarity to myself and the many clients that I have now serviced over the years.</p>
        <p>&nbsp;</p>
        <p>There are many more challenges to come - and in this ever evolving technology space I feel freer than ever to find the right answers to the many questions that pose themselves on a daily basis. We are more than just flesh and bones, we are energy and information - we are universal entities finding expression in the here and now so lets create something special today....</p>
@@ -255,14 +228,28 @@ html, body {
        <p>Joseph Wright - One-Life Media</p>
       </div>
      </div>
-     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u44379-4" data-content-guid="u44379-4_content"><!-- content -->
+     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u85154-4" data-content-guid="u85154-4_content"><!-- content -->
       <h1>BLOG POSTS</h1>
      </div>
-     <div class="browser_width colelem shared_content" id="u38248-bw" data-content-guid="u38248-bw_content">
-      <div id="u38248"><!-- column -->
-       <div class="clearfix" id="u38248_align_to_page">
-        <div class="colelem shared_content" id="u8729" data-content-guid="u8729_content"><!-- custom html -->
-         <!-- Begin Mailchimp Signup Form -->
+     <div class="ose_pre_init colelem shared_content" id="u85155" data-content-guid="u85155_content"><!-- custom html -->
+      <div class="feedgrabbr_widget" id="fgid_bbb387271ca7690ba41530acf"></div>
+<script>if (typeof (fg_widgets) === "undefined") fg_widgets = new Array(); fg_widgets.push("fgid_bbb387271ca7690ba41530acf");</script>
+<script async src="https://www.feedgrabbr.com/widget/fgwidget.js"></script>
+     </div>
+     <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u85190-4" data-content-guid="u85190-4_content"><!-- content -->
+      <h1>CONTACT US</h1>
+     </div>
+     <div class="ose_pre_init colelem shared_content" id="u85191" data-content-guid="u85191_content"><!-- custom html -->
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemNHJYo2VjIrIMGTXmorh8wzqhq9bYtak-XxemUOuyQHvDOw/viewform?embedded=true" width="300" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+     </div>
+    </div>
+    <a class="nonblock nontext anim_swing museBGSize mse_pre_init shared_content" id="u92821" href="index.html#home-page-anchore" data-content-guid="u92821_content"><!-- simple frame --></a>
+    <div class="verticalspacer" data-offset-top="3335" data-content-above-spacer="3335" data-content-below-spacer="482"></div>
+    <div class="browser_width grpelem shared_content" id="u83563-bw" data-content-guid="u83563-bw_content">
+     <div id="u83563"><!-- column -->
+      <div class="clearfix" id="u83563_align_to_page">
+       <div class="colelem" id="u83561"><!-- custom html -->
+        <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#cacaca; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -299,244 +286,309 @@ html, body {
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
-        </div>
-        <div class="OLM_P clearfix colelem shared_content" id="u38245-4" data-content-guid="u38245-4_content"><!-- content -->
-         <p>https://www.one-lifemedia.com Powered by One-Life Media&nbsp; copyright&nbsp; © ® 2019</p>
-        </div>
+       </div>
+       <div class="OLM_P clearfix colelem" id="u83562-4"><!-- content -->
+        <p>https://www.one-lifemedia.com Powered by One-Life Media&nbsp; copyright&nbsp; © ® 2019</p>
        </div>
       </div>
      </div>
     </div>
    </div>
   </div>
-  <div class="breakpoint" id="bp_1080" data-min-width="610" data-max-width="1080"><!-- responsive breakpoint node -->
+  <div class="breakpoint" id="bp_1080" data-min-width="913" data-max-width="1080"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <div class="clearfix grpelem" id="phome"><!-- column -->
-     <span class="anchor_item colelem placeholder" data-placeholder-for="home_content"><!-- placeholder node --></span>
-     <span class="size_fixed colelem placeholder" data-placeholder-for="u44812_content"><!-- placeholder node --></span>
+    <span class="anchor_item grpelem placeholder" data-placeholder-for="contact-us_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="phome-page-anchore"><!-- column -->
+     <span class="anchor_item colelem placeholder" data-placeholder-for="home-page-anchore_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="aboutus_content"><!-- placeholder node --></span>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="blogpost_content"><!-- placeholder node --></span>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="contactus_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="blog_content"><!-- placeholder node --></span>
     </div>
-    <div class="clearfix grpelem" id="ppu42331-4"><!-- column -->
-     <div class="clearfix colelem" id="pu42331-4"><!-- group -->
-      <span class="OLM_H1 clearfix grpelem placeholder" data-placeholder-for="u42331-4_content"><!-- placeholder node --></span>
-      <span class="OLM_H2_02 clearfix grpelem placeholder" data-placeholder-for="u42343-4_content"><!-- placeholder node --></span>
-      <div class="PamphletWidget clearfix grpelem temp_no_id" data-orig-id="pamphletu500"><!-- none box -->
-       <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u501"><!-- none box -->
-        <div class="popup_anchor temp_no_id" data-orig-id="u502popup">
-         <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u502"><!-- simple frame --></div>
-        </div>
-       </div>
-       <div class="popup_anchor temp_no_id" data-orig-id="u505popup">
-        <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u505"><!-- stack box -->
-         <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u506"><!-- group -->
-          <a class="block anim_swing" href="index.html#features"><!-- Block link tag --></a>
-          <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu36267"><!-- vertical box -->
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36282"><!-- horizontal box -->
-            <div class="MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" data-orig-id="u36285"><!-- horizontal box -->
-             <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36288-4"><!-- content -->
-              <span class="placeholder" data-placeholder-for="u36288-4_0_content"><!-- placeholder node --></span>
-             </div>
-            </div>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36289"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#aboutus" data-orig-id="u36292"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36293-4"><!-- content --><span class="placeholder" data-placeholder-for="u36293-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36275"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#blogpost" data-orig-id="u36276"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36277-4"><!-- content --><span class="placeholder" data-placeholder-for="u36277-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36296"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#contactus" data-orig-id="u36297"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36298-4"><!-- content --><span class="placeholder" data-placeholder-for="u36298-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36268"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u36269"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36271-4"><!-- content --><span class="placeholder" data-placeholder-for="u36271-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-          </nav>
-         </div>
-        </div>
+    <span class="anchor_item grpelem placeholder" data-placeholder-for="about_content"><!-- placeholder node --></span>
+    <span class="size_fixed grpelem placeholder" data-placeholder-for="u49344_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppamphletu49657"><!-- column -->
+     <div class="PamphletWidget clearfix colelem temp_no_id" data-orig-id="pamphletu49657"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u49698"><!-- none box -->
+       <div class="popup_anchor temp_no_id" data-orig-id="u49699popup">
+        <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u49699"><!-- simple frame --></div>
        </div>
       </div>
-     </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu39410"><!-- group -->
-      <span class="grpelem placeholder" data-placeholder-for="u39410_content"><!-- placeholder node --></span>
-      <span class="grpelem placeholder" data-placeholder-for="u39411_content"><!-- placeholder node --></span>
-      <span class="grpelem placeholder" data-placeholder-for="u39412_content"><!-- placeholder node --></span>
-     </div>
-     <div class="clearfix colelem" id="pu39239"><!-- group -->
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39239_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39240_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39241_content"><!-- placeholder node --></span>
-     </div>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu16689_content"><!-- placeholder node --></span>
-     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16688_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44403-4_content"><!-- placeholder node --></span>
-     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16703_content"><!-- placeholder node --></span>
-    </div>
-    <span class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init placeholder" data-placeholder-for="u21005_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="3040" data-content-above-spacer="3040" data-content-below-spacer="446"></div>
-    <span class="anchor_item grpelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu44391-4_content"><!-- placeholder node --></span>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_609" data-min-width="361" data-max-width="609"><!-- responsive breakpoint node -->
-   <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <div class="clearfix grpelem temp_no_id" data-orig-id="phome"><!-- column -->
-     <span class="anchor_item colelem placeholder" data-placeholder-for="home_content"><!-- placeholder node --></span>
-     <span class="size_fixed colelem placeholder" data-placeholder-for="u44812_content"><!-- placeholder node --></span>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="aboutus_content"><!-- placeholder node --></span>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="blogpost_content"><!-- placeholder node --></span>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="contactus_content"><!-- placeholder node --></span>
-    </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="ppamphletu500"><!-- column -->
-     <div class="PamphletWidget clearfix colelem temp_no_id" data-orig-id="pamphletu500"><!-- none box -->
-      <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u501"><!-- none box -->
-       <div class="popup_anchor temp_no_id" data-orig-id="u502popup">
-        <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u502"><!-- simple frame --></div>
-       </div>
-      </div>
-      <div class="popup_anchor temp_no_id" data-orig-id="u505popup">
-       <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u505"><!-- stack box -->
-        <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u506"><!-- group -->
-         <a class="block anim_swing" href="index.html#features"><!-- Block link tag --></a>
-         <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu36267"><!-- vertical box -->
-          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36282"><!-- horizontal box -->
-           <div class="MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" data-orig-id="u36285"><!-- horizontal box -->
-            <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36288-4"><!-- content -->
-             <span class="placeholder" data-placeholder-for="u36288-4_0_content"><!-- placeholder node --></span>
+      <div class="popup_anchor temp_no_id" data-orig-id="u49660popup">
+       <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u49660"><!-- stack box -->
+        <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u49661"><!-- group -->
+         <a class="block anim_swing" href="index.html#blog"><!-- Block link tag --></a>
+         <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu49662"><!-- vertical box -->
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49684"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49677"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49663"><!-- horizontal box -->
+           <div class="MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" data-orig-id="u49664"><!-- horizontal box -->
+            <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content -->
+             <span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span>
             </div>
            </div>
           </div>
-          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36289"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#aboutus" data-orig-id="u36292"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36293-4"><!-- content --><span class="placeholder" data-placeholder-for="u36293-4_0_content"><!-- placeholder node --></span></div></a>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49670"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
-          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36275"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#blogpost" data-orig-id="u36276"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36277-4"><!-- content --><span class="placeholder" data-placeholder-for="u36277-4_0_content"><!-- placeholder node --></span></div></a>
-          </div>
-          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36296"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#contactus" data-orig-id="u36297"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36298-4"><!-- content --><span class="placeholder" data-placeholder-for="u36298-4_0_content"><!-- placeholder node --></span></div></a>
-          </div>
-          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36268"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u36269"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36271-4"><!-- content --><span class="placeholder" data-placeholder-for="u36271-4_0_content"><!-- placeholder node --></span></div></a>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49691"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
           </div>
          </nav>
         </div>
        </div>
       </div>
      </div>
-     <span class="OLM_H1 clearfix colelem placeholder" data-placeholder-for="u42331-4_content"><!-- placeholder node --></span>
-     <span class="OLM_H2_02 clearfix colelem placeholder" data-placeholder-for="u42343-4_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix colelem placeholder" data-placeholder-for="u52569-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu39410_content"><!-- placeholder node --></span>
-     <span class="museBGSize ose_pre_init colelem placeholder" data-placeholder-for="u16689_content"><!-- placeholder node --></span>
-     <span class="museBGSize ose_pre_init colelem placeholder" data-placeholder-for="u16687_content"><!-- placeholder node --></span>
-     <span class="museBGSize ose_pre_init colelem placeholder" data-placeholder-for="u16695_content"><!-- placeholder node --></span>
-     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16688_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44403-4_content"><!-- placeholder node --></span>
-     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16703_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u88049-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="ppu85015-7_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u85129-4_content"><!-- placeholder node --></span>
+     <span class="rgba-background rounded-corners clearfix ose_pre_init colelem placeholder" data-placeholder-for="u85128-10_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u85154-4_content"><!-- placeholder node --></span>
+     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u85155_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u85190-4_content"><!-- placeholder node --></span>
+     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u85191_content"><!-- placeholder node --></span>
     </div>
-    <span class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init placeholder" data-placeholder-for="u21005_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="4019" data-content-above-spacer="4019" data-content-below-spacer="558"></div>
+    <span class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init placeholder" data-placeholder-for="u92821_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="3441" data-content-above-spacer="3441" data-content-below-spacer="490"></div>
     <span class="anchor_item grpelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu44391-4"><!-- column -->
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44391-4_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16691_content"><!-- placeholder node --></span>
-     <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43826-7_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16697_content"><!-- placeholder node --></span>
-     <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43827-7_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16706_content"><!-- placeholder node --></span>
-     <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43828-7_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44367-4_content"><!-- placeholder node --></span>
-     <span class="rgba-background clearfix ose_pre_init colelem placeholder" data-placeholder-for="u43825-10_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44379-4_content"><!-- placeholder node --></span>
-     <span class="browser_width colelem placeholder" data-placeholder-for="u38248-bw_content"><!-- placeholder node --></span>
-    </div>
+    <span class="browser_width grpelem placeholder" data-placeholder-for="u83563-bw_content"><!-- placeholder node --></span>
    </div>
   </div>
-  <div class="breakpoint" id="bp_360" data-max-width="360"><!-- responsive breakpoint node -->
+  <div class="breakpoint" id="bp_912" data-min-width="610" data-max-width="912"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u44812_content"><!-- placeholder node --></span>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pfeatures_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="phome"><!-- column -->
-     <span class="anchor_item colelem placeholder" data-placeholder-for="home_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu42331-4"><!-- group -->
-      <span class="OLM_H1 clearfix grpelem placeholder" data-placeholder-for="u42331-4_content"><!-- placeholder node --></span>
-      <div class="PamphletWidget clearfix grpelem temp_no_id" data-orig-id="pamphletu500"><!-- none box -->
-       <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u501"><!-- none box -->
-        <div class="popup_anchor temp_no_id" data-orig-id="u502popup">
-         <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u502"><!-- simple frame --></div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="phome-page-anchore"><!-- column -->
+     <span class="anchor_item colelem placeholder" data-placeholder-for="home-page-anchore_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="contact-us_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
+    </div>
+    <div class="clearfix grpelem" id="pblog"><!-- column -->
+     <span class="anchor_item colelem placeholder" data-placeholder-for="blog_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="about_content"><!-- placeholder node --></span>
+    </div>
+    <span class="size_fixed grpelem placeholder" data-placeholder-for="u49344_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppamphletu49657"><!-- column -->
+     <div class="PamphletWidget clearfix colelem temp_no_id" data-orig-id="pamphletu49657"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u49698"><!-- none box -->
+       <div class="popup_anchor temp_no_id" data-orig-id="u49699popup">
+        <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u49699"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u49660popup">
+       <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u49660"><!-- stack box -->
+        <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u49661"><!-- group -->
+         <a class="block anim_swing" href="index.html#blog"><!-- Block link tag --></a>
+         <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu49662"><!-- vertical box -->
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49684"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49677"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49663"><!-- horizontal box -->
+           <div class="MenuItem MenuItemWithSubMenu borderbox clearfix grpelem temp_no_id" data-orig-id="u49664"><!-- horizontal box -->
+            <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content -->
+             <span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span>
+            </div>
+           </div>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49670"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49691"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+         </nav>
         </div>
        </div>
-       <div class="popup_anchor temp_no_id" data-orig-id="u505popup">
-        <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u505"><!-- stack box -->
-         <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u506"><!-- group -->
-          <a class="block anim_swing" href="index.html#features"><!-- Block link tag --></a>
-          <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu36267"><!-- vertical box -->
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36282"><!-- horizontal box -->
-            <div class="MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" data-orig-id="u36285"><!-- horizontal box -->
-             <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36288-4"><!-- content -->
-              <span class="placeholder" data-placeholder-for="u36288-4_0_content"><!-- placeholder node --></span>
+      </div>
+     </div>
+     <div class="OLM_H1-Mobile clearfix colelem shared_content" id="u90380-4" data-content-guid="u90380-4_content"><!-- content -->
+      <h1>ONE-LIFE MEDIA</h1>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu39410_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u88049-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu85016-7"><!-- group -->
+      <span class="rgba-background rounded-corners OLM_P clearfix grpelem placeholder" data-placeholder-for="u85016-7_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize clearfix grpelem placeholder" data-placeholder-for="u85019_content"><!-- placeholder node --></span>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu85015-7_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu85014-7"><!-- group -->
+      <span class="rgba-background rounded-corners OLM_P clearfix grpelem placeholder" data-placeholder-for="u85014-7_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize clearfix grpelem placeholder" data-placeholder-for="u85017_content"><!-- placeholder node --></span>
+     </div>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u85154-4_content"><!-- placeholder node --></span>
+     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u85155_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u85129-4_content"><!-- placeholder node --></span>
+     <span class="rgba-background rounded-corners clearfix ose_pre_init colelem placeholder" data-placeholder-for="u85128-10_content"><!-- placeholder node --></span>
+     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u85190-4_content"><!-- placeholder node --></span>
+     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u85191_content"><!-- placeholder node --></span>
+    </div>
+    <span class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init placeholder" data-placeholder-for="u92821_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="4566" data-content-above-spacer="4599" data-content-below-spacer="496"></div>
+    <span class="browser_width grpelem placeholder" data-placeholder-for="u83563-bw_content"><!-- placeholder node --></span>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_609" data-min-width="361" data-max-width="609"><!-- responsive breakpoint node -->
+   <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
+    <span class="anchor_item grpelem placeholder" data-placeholder-for="about_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="phome-page-anchore"><!-- column -->
+     <span class="anchor_item colelem placeholder" data-placeholder-for="home-page-anchore_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="blog_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="contact-us_content"><!-- placeholder node --></span>
+    </div>
+    <div class="clearfix grpelem" id="pfeatures"><!-- column -->
+     <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
+    </div>
+    <div class="clearfix grpelem" id="pppamphletu49657"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="ppamphletu49657"><!-- group -->
+      <div class="PamphletWidget clearfix grpelem temp_no_id" data-orig-id="pamphletu49657"><!-- none box -->
+       <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u49698"><!-- none box -->
+        <div class="popup_anchor temp_no_id" data-orig-id="u49699popup">
+         <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u49699"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="popup_anchor temp_no_id" data-orig-id="u49660popup">
+        <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u49660"><!-- stack box -->
+         <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u49661"><!-- group -->
+          <a class="block anim_swing" href="index.html#blog"><!-- Block link tag --></a>
+          <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu49662"><!-- vertical box -->
+           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49684"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
+           </div>
+           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49677"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
+           </div>
+           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49663"><!-- horizontal box -->
+            <div class="MenuItem MenuItemWithSubMenu borderbox clearfix grpelem temp_no_id" data-orig-id="u49664"><!-- horizontal box -->
+             <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content -->
+              <span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span>
              </div>
             </div>
            </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36289"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#aboutus" data-orig-id="u36292"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36293-4"><!-- content --><span class="placeholder" data-placeholder-for="u36293-4_0_content"><!-- placeholder node --></span></div></a>
+           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49670"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
            </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36275"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#blogpost" data-orig-id="u36276"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36277-4"><!-- content --><span class="placeholder" data-placeholder-for="u36277-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36296"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#contactus" data-orig-id="u36297"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36298-4"><!-- content --><span class="placeholder" data-placeholder-for="u36298-4_0_content"><!-- placeholder node --></span></div></a>
-           </div>
-           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u36268"><!-- horizontal box -->
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u36269"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u36271-4"><!-- content --><span class="placeholder" data-placeholder-for="u36271-4_0_content"><!-- placeholder node --></span></div></a>
+           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49691"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
            </div>
           </nav>
          </div>
         </div>
        </div>
       </div>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u49344_content"><!-- placeholder node --></span>
      </div>
-     <span class="OLM_H2_02 clearfix colelem placeholder" data-placeholder-for="u42343-4_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu39410"><!-- group -->
-      <span class="grpelem placeholder" data-placeholder-for="u39410_content"><!-- placeholder node --></span>
-      <span class="grpelem placeholder" data-placeholder-for="u39411_content"><!-- placeholder node --></span>
-      <span class="grpelem placeholder" data-placeholder-for="u39412_content"><!-- placeholder node --></span>
+     <span class="OLM_H1-Mobile clearfix colelem placeholder" data-placeholder-for="u90380-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu39410_content"><!-- placeholder node --></span>
+     <div class="OLM_H1-Mobile clearfix ose_pre_init colelem shared_content" id="u88064-4" data-content-guid="u88064-4_content"><!-- content -->
+      <h1>FEATURES</h1>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu39239"><!-- group -->
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39239_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39240_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39241_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu85016-7"><!-- group -->
+      <span class="rgba-background rounded-corners OLM_P clearfix grpelem placeholder" data-placeholder-for="u85016-7_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize clearfix grpelem placeholder" data-placeholder-for="u85019_content"><!-- placeholder node --></span>
      </div>
-     <span class="museBGSize ose_pre_init colelem placeholder" data-placeholder-for="u16689_content"><!-- placeholder node --></span>
-     <span class="museBGSize ose_pre_init colelem placeholder" data-placeholder-for="u16687_content"><!-- placeholder node --></span>
-     <span class="museBGSize ose_pre_init colelem placeholder" data-placeholder-for="u16695_content"><!-- placeholder node --></span>
-     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16688_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44403-4_content"><!-- placeholder node --></span>
-     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u16703_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu85015-7_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu85014-7"><!-- group -->
+      <span class="rgba-background rounded-corners OLM_P clearfix grpelem placeholder" data-placeholder-for="u85014-7_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize clearfix grpelem placeholder" data-placeholder-for="u85017_content"><!-- placeholder node --></span>
+     </div>
+     <div class="OLM_H1-Mobile clearfix ose_pre_init colelem shared_content" id="u88079-4" data-content-guid="u88079-4_content"><!-- content -->
+      <h1>BLOG POSTS</h1>
+     </div>
+     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u85155_content"><!-- placeholder node --></span>
+     <div class="OLM_H1-Mobile clearfix ose_pre_init colelem shared_content" id="u88095-4" data-content-guid="u88095-4_content"><!-- content -->
+      <h1>ABOUT US</h1>
+     </div>
+     <span class="rgba-background rounded-corners clearfix ose_pre_init colelem placeholder" data-placeholder-for="u85128-10_content"><!-- placeholder node --></span>
+     <div class="OLM_H1-Mobile clearfix ose_pre_init colelem shared_content" id="u88110-4" data-content-guid="u88110-4_content"><!-- content -->
+      <h1>CONTACT US</h1>
+     </div>
+     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u85191_content"><!-- placeholder node --></span>
     </div>
-    <span class="nonblock nontext anim_swing museBGSize ose_pre_init mse_pre_init placeholder" data-placeholder-for="u21005_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="4068" data-content-above-spacer="4067" data-content-below-spacer="629"></div>
+    <span class="nonblock nontext anim_swing museBGSize mse_pre_init placeholder" data-placeholder-for="u92821_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="4460" data-content-above-spacer="4464" data-content-below-spacer="498"></div>
+    <span class="browser_width grpelem placeholder" data-placeholder-for="u83563-bw_content"><!-- placeholder node --></span>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_360" data-max-width="360"><!-- responsive breakpoint node -->
+   <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
     <span class="anchor_item grpelem placeholder" data-placeholder-for="subscribe_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu44391-4"><!-- column -->
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44391-4_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16691_content"><!-- placeholder node --></span>
-     <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43826-7_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16697_content"><!-- placeholder node --></span>
-     <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43827-7_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u16706_content"><!-- placeholder node --></span>
-     <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u43828-7_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44367-4_content"><!-- placeholder node --></span>
-     <span class="rgba-background clearfix ose_pre_init colelem placeholder" data-placeholder-for="u43825-10_content"><!-- placeholder node --></span>
-     <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u44379-4_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="u38248"><!-- column -->
-      <div class="position_content" id="u38248_position_content">
-       <span class="colelem placeholder" data-placeholder-for="u8729_content"><!-- placeholder node --></span>
-       <span class="OLM_P clearfix colelem placeholder" data-placeholder-for="u38245-4_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="phome-page-anchore"><!-- column -->
+     <span class="anchor_item colelem placeholder" data-placeholder-for="home-page-anchore_content"><!-- placeholder node --></span>
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u49344_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="blog_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="about_content"><!-- placeholder node --></span>
+     <span class="anchor_item colelem placeholder" data-placeholder-for="contact-us_content"><!-- placeholder node --></span>
+    </div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppamphletu49657"><!-- column -->
+     <div class="PamphletWidget clearfix colelem temp_no_id" data-orig-id="pamphletu49657"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u49698"><!-- none box -->
+       <div class="popup_anchor temp_no_id" data-orig-id="u49699popup">
+        <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u49699"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="popup_anchor temp_no_id" data-orig-id="u49660popup">
+       <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u49660"><!-- stack box -->
+        <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u49661"><!-- group -->
+         <a class="block anim_swing" href="index.html#blog"><!-- Block link tag --></a>
+         <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu49662"><!-- vertical box -->
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49684"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49677"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49663"><!-- horizontal box -->
+           <div class="MenuItem MenuItemWithSubMenu borderbox clearfix grpelem temp_no_id" data-orig-id="u49664"><!-- horizontal box -->
+            <div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content -->
+             <span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span>
+            </div>
+           </div>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49670"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49691"><!-- horizontal box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+         </nav>
+        </div>
+       </div>
       </div>
      </div>
+     <span class="OLM_H1-Mobile clearfix colelem placeholder" data-placeholder-for="u90380-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu39410_content"><!-- placeholder node --></span>
+     <span class="OLM_H1-Mobile clearfix ose_pre_init colelem placeholder" data-placeholder-for="u88064-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu85016-7"><!-- group -->
+      <span class="rgba-background rounded-corners OLM_P clearfix grpelem placeholder" data-placeholder-for="u85016-7_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize clearfix grpelem placeholder" data-placeholder-for="u85019_content"><!-- placeholder node --></span>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu85015-7_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu85014-7"><!-- group -->
+      <span class="rgba-background rounded-corners OLM_P clearfix grpelem placeholder" data-placeholder-for="u85014-7_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize clearfix grpelem placeholder" data-placeholder-for="u85017_content"><!-- placeholder node --></span>
+     </div>
+     <span class="OLM_H1-Mobile clearfix ose_pre_init colelem placeholder" data-placeholder-for="u88079-4_content"><!-- placeholder node --></span>
+     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u85155_content"><!-- placeholder node --></span>
+     <span class="OLM_H1-Mobile clearfix ose_pre_init colelem placeholder" data-placeholder-for="u88095-4_content"><!-- placeholder node --></span>
+     <span class="rgba-background rounded-corners clearfix ose_pre_init colelem placeholder" data-placeholder-for="u85128-10_content"><!-- placeholder node --></span>
+     <span class="OLM_H1-Mobile clearfix ose_pre_init colelem placeholder" data-placeholder-for="u88110-4_content"><!-- placeholder node --></span>
+     <span class="ose_pre_init colelem placeholder" data-placeholder-for="u85191_content"><!-- placeholder node --></span>
     </div>
+    <span class="nonblock nontext anim_swing museBGSize mse_pre_init placeholder" data-placeholder-for="u92821_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="4459" data-content-above-spacer="4487" data-content-below-spacer="485"></div>
+    <span class="browser_width grpelem placeholder" data-placeholder-for="u83563-bw_content"><!-- placeholder node --></span>
    </div>
   </div>
   <!-- JS includes -->
@@ -564,64 +616,75 @@ Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
-Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1080', '#bp_609', '#bp_360'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#pamphletu500', ['#bp_infinity', '#bp_1080', '#bp_609', '#bp_360'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu500 */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1080', '#bp_912', '#bp_609', '#bp_360'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#pamphletu49657', ['#bp_infinity', '#bp_1080', '#bp_912', '#bp_609', '#bp_360'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu49657 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_360').one('muse_this_bp_activate', function(){
-$('#u16689').registerOpacityScrollEffect([{"in":[-Infinity,467.6],"opacity":0,"fade":50},{"opacity":100,"in":[467.6,467.6]},{"in":[467.6,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16687').registerOpacityScrollEffect([{"in":[-Infinity,812.8],"opacity":0,"fade":50},{"opacity":100,"in":[812.8,812.8]},{"in":[812.8,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16695').registerOpacityScrollEffect([{"in":[-Infinity,1158.7],"opacity":0,"fade":50},{"opacity":100,"in":[1158.7,1158.7]},{"in":[1158.7,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16688').registerOpacityScrollEffect([{"in":[-Infinity,2186.5],"opacity":40,"fade":50},{"opacity":100,"in":[2186.5,2186.5]},{"in":[2186.5,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
-$('#u44403-4').registerOpacityScrollEffect([{"in":[-Infinity,2487.25],"opacity":0,"fade":50},{"opacity":100,"in":[2487.25,2487.25]},{"in":[2487.25,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
-$('#u16703').registerOpacityScrollEffect([{"in":[-Infinity,2797.95],"opacity":50,"fade":50},{"opacity":100,"in":[2797.95,2797.95]},{"in":[2797.95,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
-$('#u21005').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,844.8]},{"speed":[0,0],"in":[844.8,Infinity]}], $(this)); /* scroll effect */
-$('#u21005').registerOpacityScrollEffect([{"in":[-Infinity,844.8],"opacity":100,"fade":500},{"opacity":100,"in":[844.8,844.8]},{"in":[844.8,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u44391-4').registerOpacityScrollEffect([{"in":[-Infinity,350.85],"opacity":0,"fade":246},{"opacity":100,"in":[350.85,350.85]},{"in":[350.85,Infinity],"opacity":0,"fade":2507.8}], $(this)); /* scroll effect */
-$('#u44367-4').registerOpacityScrollEffect([{"in":[-Infinity,1498.45],"opacity":0,"fade":12},{"opacity":100,"in":[1498.45,1498.45]},{"in":[1498.45,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
-$('#u43825-10').registerOpacityScrollEffect([{"in":[-Infinity,1609.65],"opacity":50,"fade":108},{"opacity":100,"in":[1609.65,1609.65]},{"in":[1609.65,Infinity],"opacity":50,"fade":1600}], $(this)); /* scroll effect */
-$('#u44379-4').registerOpacityScrollEffect([{"in":[-Infinity,2056.1],"opacity":0,"fade":50},{"opacity":100,"in":[2056.1,2056.1]},{"in":[2056.1,Infinity],"opacity":0,"fade":1649.4}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
-$('#bp_1080').one('muse_this_bp_activate', function(){
-$('#u16689').registerOpacityScrollEffect([{"in":[-Infinity,472.45],"opacity":0,"fade":50},{"opacity":100,"in":[472.45,472.45]},{"in":[472.45,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16687').registerOpacityScrollEffect([{"in":[-Infinity,472.45],"opacity":0,"fade":50},{"opacity":100,"in":[472.45,472.45]},{"in":[472.45,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16695').registerOpacityScrollEffect([{"in":[-Infinity,472.45],"opacity":0,"fade":50},{"opacity":100,"in":[472.45,472.45]},{"in":[472.45,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16688').registerOpacityScrollEffect([{"in":[-Infinity,1248.5],"opacity":40,"fade":50},{"opacity":100,"in":[1248.5,1248.5]},{"in":[1248.5,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
-$('#u44403-4').registerOpacityScrollEffect([{"in":[-Infinity,1815.55],"opacity":0,"fade":50},{"opacity":100,"in":[1815.55,1815.55]},{"in":[1815.55,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
-$('#u16703').registerOpacityScrollEffect([{"in":[-Infinity,1939.75],"opacity":50,"fade":50},{"opacity":100,"in":[1939.75,1939.75]},{"in":[1939.75,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
-$('#u21005').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,800]},{"speed":[0,0],"in":[800,Infinity]}], $(this)); /* scroll effect */
-$('#u21005').registerOpacityScrollEffect([{"in":[-Infinity,800],"opacity":100,"fade":500},{"opacity":100,"in":[800,800]},{"in":[800,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u44391-4').registerOpacityScrollEffect([{"in":[-Infinity,444.9],"opacity":0,"fade":246},{"opacity":100,"in":[444.9,444.9]},{"in":[444.9,Infinity],"opacity":0,"fade":2507.8}], $(this)); /* scroll effect */
-$('#u44367-4').registerOpacityScrollEffect([{"in":[-Infinity,941.55],"opacity":0,"fade":12},{"opacity":100,"in":[941.55,941.55]},{"in":[941.55,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
-$('#u43825-10').registerOpacityScrollEffect([{"in":[-Infinity,840],"opacity":50,"fade":108},{"opacity":100,"in":[840,840]},{"in":[840,Infinity],"opacity":80,"fade":1600}], $(this)); /* scroll effect */
-$('#u44379-4').registerOpacityScrollEffect([{"in":[-Infinity,1277.15],"opacity":0,"fade":50},{"opacity":100,"in":[1277.15,1277.15]},{"in":[1277.15,Infinity],"opacity":0,"fade":1649.4}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
-$('#bp_609').one('muse_this_bp_activate', function(){
-$('#u16689').registerOpacityScrollEffect([{"in":[-Infinity,767.9],"opacity":0,"fade":50},{"opacity":100,"in":[767.9,767.9]},{"in":[767.9,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16687').registerOpacityScrollEffect([{"in":[-Infinity,1081.15],"opacity":0,"fade":50},{"opacity":100,"in":[1081.15,1081.15]},{"in":[1081.15,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16695').registerOpacityScrollEffect([{"in":[-Infinity,1400.2],"opacity":0,"fade":50},{"opacity":100,"in":[1400.2,1400.2]},{"in":[1400.2,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16688').registerOpacityScrollEffect([{"in":[-Infinity,2164.85],"opacity":40,"fade":50},{"opacity":100,"in":[2164.85,2164.85]},{"in":[2164.85,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
-$('#u44403-4').registerOpacityScrollEffect([{"in":[-Infinity,2438.6],"opacity":0,"fade":50},{"opacity":100,"in":[2438.6,2438.6]},{"in":[2438.6,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
-$('#u16703').registerOpacityScrollEffect([{"in":[-Infinity,2700],"opacity":50,"fade":50},{"opacity":100,"in":[2700,2700]},{"in":[2700,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
-$('#u21005').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,753]},{"speed":[0,0],"in":[753,Infinity]}], $(this)); /* scroll effect */
-$('#u21005').registerOpacityScrollEffect([{"in":[-Infinity,753],"opacity":100,"fade":500},{"opacity":100,"in":[753,753]},{"in":[753,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u44391-4').registerOpacityScrollEffect([{"in":[-Infinity,718.15],"opacity":0,"fade":246},{"opacity":100,"in":[718.15,718.15]},{"in":[718.15,Infinity],"opacity":0,"fade":2507.8}], $(this)); /* scroll effect */
-$('#u44367-4').registerOpacityScrollEffect([{"in":[-Infinity,1732.4],"opacity":0,"fade":12},{"opacity":100,"in":[1732.4,1732.4]},{"in":[1732.4,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
-$('#u43825-10').registerOpacityScrollEffect([{"in":[-Infinity,1850],"opacity":50,"fade":108},{"opacity":100,"in":[1850,1850]},{"in":[1850,Infinity],"opacity":80,"fade":1600}], $(this)); /* scroll effect */
-$('#u44379-4').registerOpacityScrollEffect([{"in":[-Infinity,2170.9],"opacity":0,"fade":50},{"opacity":100,"in":[2170.9,2170.9]},{"in":[2170.9,Infinity],"opacity":0,"fade":1649.4}], $(this)); /* scroll effect */
+$('#bp_912').one('muse_this_bp_activate', function(){
+$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,396.78],"opacity":0,"fade":246},{"in":[396.78,396.78],"opacity":100},{"in":[396.78,Infinity],"opacity":50,"fade":2507.8}], $(this)); /* scroll effect */
+$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,567.77],"opacity":0,"fade":50},{"in":[567.77,567.77],"opacity":100},{"in":[567.77,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,1108.22],"opacity":0,"fade":50},{"in":[1108.22,1108.22],"opacity":100},{"in":[1108.22,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,1640.62],"opacity":0,"fade":50},{"in":[1640.62,1640.62],"opacity":100},{"in":[1640.62,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,2018.67],"opacity":0,"fade":50},{"in":[2018.67,2018.67],"opacity":100},{"in":[2018.67,Infinity],"opacity":100,"fade":1649.4}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,2168.98],"opacity":40,"fade":50},{"in":[2168.98,2168.98],"opacity":100},{"in":[2168.98,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
+$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,2666.7],"opacity":0,"fade":12},{"in":[2666.7,2666.7],"opacity":100},{"in":[2666.7,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,2867.75],"opacity":20,"fade":108},{"in":[2867.75,2867.75],"opacity":100},{"in":[2867.75,Infinity],"opacity":50,"fade":1600}], $(this)); /* scroll effect */
+$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,3041.77],"opacity":0,"fade":50},{"in":[3041.77,3041.77],"opacity":100},{"in":[3041.77,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3465.48],"opacity":50,"fade":50},{"in":[3465.48,3465.48],"opacity":100},{"in":[3465.48,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"in":[-Infinity,711.5],"speed":[0,0]},{"in":[711.5,Infinity],"speed":[0,1]}], $(this)); /* scroll effect */
+$('#u92821').registerOpacityScrollEffect([{"in":[-Infinity,711.5],"opacity":0,"fade":50},{"in":[711.5,711.5],"opacity":100},{"in":[711.5,Infinity],"opacity":0,"fade":50}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_infinity').one('muse_this_bp_activate', function(){
-$('#u16689').registerOpacityScrollEffect([{"in":[-Infinity,670],"opacity":0,"fade":50},{"opacity":100,"in":[670,670]},{"in":[670,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16687').registerOpacityScrollEffect([{"in":[-Infinity,670],"opacity":0,"fade":50},{"opacity":100,"in":[670,670]},{"in":[670,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16695').registerOpacityScrollEffect([{"in":[-Infinity,669.95],"opacity":0,"fade":50},{"opacity":100,"in":[669.95,669.95]},{"in":[669.95,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u16688').registerOpacityScrollEffect([{"in":[-Infinity,1622.35],"opacity":40,"fade":50},{"opacity":100,"in":[1622.35,1622.35]},{"in":[1622.35,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
-$('#u44403-4').registerOpacityScrollEffect([{"in":[-Infinity,2008.95],"opacity":0,"fade":50},{"opacity":100,"in":[2008.95,2008.95]},{"in":[2008.95,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
-$('#u16703').registerOpacityScrollEffect([{"in":[-Infinity,2392.15],"opacity":50,"fade":50},{"opacity":100,"in":[2392.15,2392.15]},{"in":[2392.15,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
-$('#u21005').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,743.75]},{"speed":[0,0],"in":[743.75,Infinity]}], $(this)); /* scroll effect */
-$('#u21005').registerOpacityScrollEffect([{"in":[-Infinity,743.75],"opacity":100,"fade":500},{"opacity":100,"in":[743.75,743.75]},{"in":[743.75,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
-$('#u44391-4').registerOpacityScrollEffect([{"in":[-Infinity,516.9],"opacity":0,"fade":246},{"opacity":100,"in":[516.9,516.9]},{"in":[516.9,Infinity],"opacity":50,"fade":2507.8}], $(this)); /* scroll effect */
-$('#u44367-4').registerOpacityScrollEffect([{"in":[-Infinity,1024.5],"opacity":0,"fade":12},{"opacity":100,"in":[1024.5,1024.5]},{"in":[1024.5,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
-$('#u43825-10').registerOpacityScrollEffect([{"in":[-Infinity,1161],"opacity":100,"fade":108},{"opacity":100,"in":[1161,1161]},{"in":[1161,Infinity],"opacity":100,"fade":1600}], $(this)); /* scroll effect */
-$('#u44379-4').registerOpacityScrollEffect([{"in":[-Infinity,1473],"opacity":0,"fade":50},{"opacity":100,"in":[1473,1473]},{"in":[1473,Infinity],"opacity":100,"fade":1649.4}], $(this)); /* scroll effect */
+$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,374.22],"opacity":0,"fade":246},{"in":[374.22,374.22],"opacity":100},{"in":[374.22,Infinity],"opacity":50,"fade":2507.8}], $(this)); /* scroll effect */
+$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,558.42],"opacity":0,"fade":50},{"in":[558.42,558.42],"opacity":100},{"in":[558.42,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,558.37],"opacity":0,"fade":50},{"in":[558.37,558.37],"opacity":100},{"in":[558.37,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,558.42],"opacity":0,"fade":50},{"in":[558.42,558.42],"opacity":100},{"in":[558.42,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,879.6],"opacity":0,"fade":12},{"in":[879.6,879.6],"opacity":100},{"in":[879.6,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,1066.6],"opacity":20,"fade":108},{"in":[1066.6,1066.6],"opacity":100},{"in":[1066.6,Infinity],"opacity":50,"fade":1600}], $(this)); /* scroll effect */
+$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,1334.65],"opacity":0,"fade":50},{"in":[1334.65,1334.65],"opacity":100},{"in":[1334.65,Infinity],"opacity":100,"fade":1649.4}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,1457.95],"opacity":40,"fade":50},{"in":[1457.95,1457.95],"opacity":100},{"in":[1457.95,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
+$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,1833.57],"opacity":0,"fade":50},{"in":[1833.57,1833.57],"opacity":100},{"in":[1833.57,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,2234.78],"opacity":50,"fade":50},{"in":[2234.78,2234.78],"opacity":100},{"in":[2234.78,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"in":[-Infinity,689.2],"speed":[0,1]},{"in":[689.2,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_609').one('muse_this_bp_activate', function(){
+$('#u88064-4').registerOpacityScrollEffect([{"in":[-Infinity,336.55],"opacity":0,"fade":246},{"in":[336.55,336.55],"opacity":100},{"in":[336.55,Infinity],"opacity":50,"fade":2507.8}], $(this)); /* scroll effect */
+$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,455.92],"opacity":0,"fade":50},{"in":[455.92,455.92],"opacity":100},{"in":[455.92,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,978.52],"opacity":0,"fade":50},{"in":[978.52,978.52],"opacity":100},{"in":[978.52,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,1501.02],"opacity":0,"fade":50},{"in":[1501.02,1501.02],"opacity":100},{"in":[1501.02,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u88079-4').registerOpacityScrollEffect([{"in":[-Infinity,1903.57],"opacity":0,"fade":50},{"in":[1903.57,1903.57],"opacity":100},{"in":[1903.57,Infinity],"opacity":100,"fade":1649.4}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,2046.48],"opacity":40,"fade":50},{"in":[2046.48,2046.48],"opacity":100},{"in":[2046.48,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
+$('#u88095-4').registerOpacityScrollEffect([{"in":[-Infinity,2566.8],"opacity":0,"fade":12},{"in":[2566.8,2566.8],"opacity":100},{"in":[2566.8,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,2759.45],"opacity":20,"fade":108},{"in":[2759.45,2759.45],"opacity":100},{"in":[2759.45,Infinity],"opacity":50,"fade":1600}], $(this)); /* scroll effect */
+$('#u88110-4').registerOpacityScrollEffect([{"in":[-Infinity,2991.77],"opacity":0,"fade":50},{"in":[2991.77,2991.77],"opacity":100},{"in":[2991.77,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3359.52],"opacity":50,"fade":50},{"in":[3359.52,3359.52],"opacity":100},{"in":[3359.52,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"in":[-Infinity,651.6],"speed":[0,0]},{"in":[651.6,Infinity],"speed":[0,1]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_360').one('muse_this_bp_activate', function(){
+$('#u88064-4').registerOpacityScrollEffect([{"in":[-Infinity,410.18],"opacity":0,"fade":246},{"in":[410.18,410.18],"opacity":100},{"in":[410.18,Infinity],"opacity":50,"fade":2507.8}], $(this)); /* scroll effect */
+$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,542.47],"opacity":0,"fade":50},{"in":[542.47,542.47],"opacity":100},{"in":[542.47,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,1088.27],"opacity":0,"fade":50},{"in":[1088.27,1088.27],"opacity":100},{"in":[1088.27,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,1631.77],"opacity":0,"fade":50},{"in":[1631.77,1631.77],"opacity":100},{"in":[1631.77,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u88079-4').registerOpacityScrollEffect([{"in":[-Infinity,1979.92],"opacity":0,"fade":50},{"in":[1979.92,1979.92],"opacity":100},{"in":[1979.92,Infinity],"opacity":100,"fade":1649.4}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,2104.76],"opacity":40,"fade":50},{"in":[2104.76,2104.76],"opacity":100},{"in":[2104.76,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
+$('#u88095-4').registerOpacityScrollEffect([{"in":[-Infinity,2553.85],"opacity":0,"fade":12},{"in":[2553.85,2553.85],"opacity":100},{"in":[2553.85,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,2721.13],"opacity":20,"fade":108},{"in":[2721.13,2721.13],"opacity":100},{"in":[2721.13,Infinity],"opacity":50,"fade":1600}], $(this)); /* scroll effect */
+$('#u88110-4').registerOpacityScrollEffect([{"in":[-Infinity,2998.31],"opacity":0,"fade":50},{"in":[2998.31,2998.31],"opacity":100},{"in":[2998.31,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3358.01],"opacity":50,"fade":50},{"in":[3358.01,3358.01],"opacity":100},{"in":[3358.01,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"in":[-Infinity,694],"speed":[0,0]},{"in":[694,Infinity],"speed":[0,1]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_1080').one('muse_this_bp_activate', function(){
+$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,439.43],"opacity":0,"fade":246},{"in":[439.43,439.43],"opacity":100},{"in":[439.43,Infinity],"opacity":50,"fade":2507.8}], $(this)); /* scroll effect */
+$('#u85021').registerOpacityScrollEffect([{"in":[-Infinity,590.42],"opacity":0,"fade":50},{"in":[590.42,590.42],"opacity":100},{"in":[590.42,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85020').registerOpacityScrollEffect([{"in":[-Infinity,590.67],"opacity":0,"fade":50},{"in":[590.67,590.67],"opacity":100},{"in":[590.67,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85022').registerOpacityScrollEffect([{"in":[-Infinity,590.72],"opacity":0,"fade":50},{"in":[590.72,590.72],"opacity":100},{"in":[590.72,Infinity],"opacity":100,"fade":50}], $(this)); /* scroll effect */
+$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,945.65],"opacity":0,"fade":12},{"in":[945.65,945.65],"opacity":100},{"in":[945.65,Infinity],"opacity":80,"fade":700}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,1145.65],"opacity":20,"fade":108},{"in":[1145.65,1145.65],"opacity":100},{"in":[1145.65,Infinity],"opacity":50,"fade":1600}], $(this)); /* scroll effect */
+$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,1381.07],"opacity":0,"fade":50},{"in":[1381.07,1381.07],"opacity":100},{"in":[1381.07,Infinity],"opacity":100,"fade":1649.4}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,1531.38],"opacity":40,"fade":50},{"in":[1531.38,1531.38],"opacity":100},{"in":[1531.38,Infinity],"opacity":80,"fade":1200}], $(this)); /* scroll effect */
+$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,1950.27],"opacity":0,"fade":50},{"in":[1950.27,1950.27],"opacity":100},{"in":[1950.27,Infinity],"opacity":80,"fade":900}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,2340.48],"opacity":50,"fade":50},{"in":[2340.48,2340.48],"opacity":100},{"in":[2340.48,Infinity],"opacity":100,"fade":600}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"in":[-Infinity,1292.75],"speed":[0,1]},{"in":[1292.75,Infinity],"speed":[0,1]}], $(this)); /* scroll effect */
+$('#u92821').registerOpacityScrollEffect([{"in":[-Infinity,1292.75],"opacity":0,"fade":543.15},{"in":[1292.75,1292.75],"opacity":100},{"in":[1292.75,Infinity],"opacity":0,"fade":50}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */

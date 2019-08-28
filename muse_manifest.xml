@@ -1,14 +1,14 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1566842169610">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1566957961971">
   <folder name="css">
-    <file name="site_global.css" crc="291321687"/>
-    <file name="master_header.css" crc="389747110" ref="index"/>
-    <file name="nomq_preview_master_header.css" crc="3824530138" ref="index"/>
-    <file name="master_video-background-copy.css" crc="4261855402" ref="index"/>
-    <file name="nomq_preview_master_video-background-copy.css" crc="3824530138" ref="index"/>
-    <file name="master_header-footer.css" crc="4233983846" ref="index"/>
-    <file name="nomq_preview_master_header-footer.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="4274064293" ref="index"/>
-    <file name="nomq_index.css" crc="13936507" ref="index"/>
+    <file name="site_global.css" crc="3933392814"/>
+    <file name="master_menu.css" crc="151854468" ref="index"/>
+    <file name="nomq_preview_master_menu.css" crc="3824530138" ref="index"/>
+    <file name="master_header.css" crc="4084799528" ref="index"/>
+    <file name="nomq_preview_master_header.css" crc="3853637980" ref="index"/>
+    <file name="master_footer.css" crc="325052593" ref="index"/>
+    <file name="nomq_preview_master_footer.css" crc="3824530138" ref="index"/>
+    <file name="index.css" crc="4249142605" ref="index"/>
+    <file name="nomq_index.css" crc="281802316" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="play-02.png" crc="167282103" seo="true" mt="1566070196000"/>
@@ -43,8 +43,16 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="inblaq-music_logo-150-x-150.png" crc="266769985" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -59,14 +67,9 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="up-button.png" crc="3902778607" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="one-lifemedia-ft-image.jpg" crc="3771519174" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="inblaq-music-ft-image.jpg" crc="126613473" ref="index">
@@ -75,12 +78,16 @@
     <file name="colourzoo-ft-image.jpg" crc="3855132154" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="one-life-media-logo-150-x150-u16689-fr.png" crc="90446923" ref="index"/>
-    <file name="inblaq-music_logo-150-x-150-u16687-fr.png" crc="196693206" ref="index"/>
-    <file name="logo-grey-orange150x150-u16695-fr.png" crc="509516167" ref="index"/>
-    <file name="one-lifemedia-ft-image-u16691-fr.jpg" crc="186604524" ref="index"/>
-    <file name="inblaq-music-ft-image-u16697-fr.jpg" crc="3920127395" ref="index"/>
-    <file name="colourzoo-ft-image-u16706-fr.jpg" crc="247532768" ref="index"/>
+    <file name="one-lifemedia-ft-image.jpg" crc="3771519174" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="up-button.png" crc="3902778607" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="432391556" seo="true" mt="1566841500341" redirect="true"/>
+  <file name="index.html" crc="3853956524" seo="true" mt="1566957879947" redirect="true"/>
 </manifest>
