@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1569459938877">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1569535590258">
   <folder name="css">
     <file name="site_global.css" crc="3849043456"/>
     <file name="master_header.css" crc="166103134" ref="index"/>
@@ -7,7 +7,7 @@
     <file name="nomq_preview_master_menu.css" crc="3824530138" ref="index"/>
     <file name="master_footer.css" crc="278975098" ref="index"/>
     <file name="nomq_preview_master_footer.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="71269032" ref="index"/>
+    <file name="index.css" crc="4139402720" ref="index"/>
     <file name="nomq_index.css" crc="461891866" ref="index"/>
   </folder>
   <folder name="assets">
@@ -90,5 +90,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="500778661" seo="true" mt="1569459904962" redirect="true"/>
+  <file name="index.html" crc="3782179327" seo="true" mt="1569535528796" redirect="true"/>
 </manifest>
