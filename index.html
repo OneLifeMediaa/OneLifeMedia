@@ -18,16 +18,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3999123546"/>
-  <link rel="stylesheet" type="text/css" href="css/master_menu.css?crc=4156621390"/>
-  <link rel="stylesheet" type="text/css" href="css/master_header.css?crc=4252456918"/>
-  <link rel="stylesheet" type="text/css" href="css/master_footer.css?crc=363014850"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3852706111" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_menu.css?crc=197664401"/>
+  <link rel="stylesheet" type="text/css" href="css/master_header.css?crc=434083689"/>
+  <link rel="stylesheet" type="text/css" href="css/master_footer.css?crc=517400860"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4071220087" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_menu.css?crc=3824530138"/>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_header.css?crc=3853637980"/>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_footer.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3766545053" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=292946621" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -115,6 +115,577 @@ html, body {
 </style>
 <script async src="https://cdn.jsdelivr.net/npm/object-fit-videos@1.0.4/object-fit-videos.min.js"></script>
 
+<style>
+
+
+/* css for loader1 */
+
+#u130723 .loader1,
+.loader1:before,
+.loader1:after {
+  background: #ffffff;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+#u130723 .loader1:before,
+.loader1:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+#u130723 .loader1:before {
+  left: -1.5em;
+}
+#u130723 .loader1 {
+  text-indent: -9999em;
+  margin: 8em auto;
+  position: relative;
+  font-size: 12px;
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+#u130723 .loader1:after {
+  left: 1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0 #ffffff;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em #ffffff;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0 #ffffff;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em #ffffff;
+    height: 5em;
+  }
+}
+
+/* end of loader1 css */
+
+/* css for loader 2 */
+
+
+#u130723 .loader2 {
+  margin: 4em auto;
+  font-size: 12px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation: load5 1.1s infinite ease;
+  animation: load5 1.1s infinite ease;
+}
+@-webkit-keyframes load5 {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em #ffffff, 1.8em -1.8em 0 0em rgba(255,255,255, 0.2), 2.5em 0em 0 0em rgba(255,255,255, 0.2), 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.2), -1.8em 1.8em 0 0em rgba(255,255,255, 0.2), -2.6em 0em 0 0em rgba(255,255,255, 0.5), -1.8em -1.8em 0 0em rgba(255,255,255, 0.7);
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.7), 1.8em -1.8em 0 0em #ffffff, 2.5em 0em 0 0em rgba(255,255,255, 0.2), 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.2), -1.8em 1.8em 0 0em rgba(255,255,255, 0.2), -2.6em 0em 0 0em rgba(255,255,255, 0.2), -1.8em -1.8em 0 0em rgba(255,255,255, 0.5);
+  }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.5), 1.8em -1.8em 0 0em rgba(255,255,255, 0.7), 2.5em 0em 0 0em #ffffff, 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.2), -1.8em 1.8em 0 0em rgba(255,255,255, 0.2), -2.6em 0em 0 0em rgba(255,255,255, 0.2), -1.8em -1.8em 0 0em rgba(255,255,255, 0.2);
+  }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.2), 1.8em -1.8em 0 0em rgba(255,255,255, 0.5), 2.5em 0em 0 0em rgba(255,255,255, 0.7), 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.2), -1.8em 1.8em 0 0em rgba(255,255,255, 0.2), -2.6em 0em 0 0em rgba(255,255,255, 0.2), -1.8em -1.8em 0 0em rgba(255,255,255, 0.2);
+  }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.2), 1.8em -1.8em 0 0em rgba(255,255,255, 0.2), 2.5em 0em 0 0em rgba(255,255,255, 0.5), 1.75em 1.75em 0 0em rgba(255,255,255, 0.7), 0em 2.5em 0 0em #ffffff, -1.8em 1.8em 0 0em rgba(255,255,255, 0.2), -2.6em 0em 0 0em rgba(255,255,255, 0.2), -1.8em -1.8em 0 0em rgba(255,255,255, 0.2);
+  }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.2), 1.8em -1.8em 0 0em rgba(255,255,255, 0.2), 2.5em 0em 0 0em rgba(255,255,255, 0.2), 1.75em 1.75em 0 0em rgba(255,255,255, 0.5), 0em 2.5em 0 0em rgba(255,255,255, 0.7), -1.8em 1.8em 0 0em #ffffff, -2.6em 0em 0 0em rgba(255,255,255, 0.2), -1.8em -1.8em 0 0em rgba(255,255,255, 0.2);
+  }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.2), 1.8em -1.8em 0 0em rgba(255,255,255, 0.2), 2.5em 0em 0 0em rgba(255,255,255, 0.2), 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.5), -1.8em 1.8em 0 0em rgba(255,255,255, 0.7), -2.6em 0em 0 0em #ffffff, -1.8em -1.8em 0 0em rgba(255,255,255, 0.2);
+  }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.2), 1.8em -1.8em 0 0em rgba(255,255,255, 0.2), 2.5em 0em 0 0em rgba(255,255,255, 0.2), 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.2), -1.8em 1.8em 0 0em rgba(255,255,255, 0.5), -2.6em 0em 0 0em rgba(255,255,255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+  }
+}
+@keyframes load5 {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em #ffffff, 1.8em -1.8em 0 0em rgba(255,255,255, 0.2), 2.5em 0em 0 0em rgba(255,255,255, 0.2), 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.2), -1.8em 1.8em 0 0em rgba(255,255,255, 0.2), -2.6em 0em 0 0em rgba(255,255,255, 0.5), -1.8em -1.8em 0 0em rgba(255,255,255, 0.7);
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.7), 1.8em -1.8em 0 0em #ffffff, 2.5em 0em 0 0em rgba(255,255,255, 0.2), 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.2), -1.8em 1.8em 0 0em rgba(255,255,255, 0.2), -2.6em 0em 0 0em rgba(255,255,255, 0.2), -1.8em -1.8em 0 0em rgba(255,255,255, 0.5);
+  }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.5), 1.8em -1.8em 0 0em rgba(255,255,255, 0.7), 2.5em 0em 0 0em #ffffff, 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.2), -1.8em 1.8em 0 0em rgba(255,255,255, 0.2), -2.6em 0em 0 0em rgba(255,255,255, 0.2), -1.8em -1.8em 0 0em rgba(255,255,255, 0.2);
+  }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.2), 1.8em -1.8em 0 0em rgba(255,255,255, 0.5), 2.5em 0em 0 0em rgba(255,255,255, 0.7), 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.2), -1.8em 1.8em 0 0em rgba(255,255,255, 0.2), -2.6em 0em 0 0em rgba(255,255,255, 0.2), -1.8em -1.8em 0 0em rgba(255,255,255, 0.2);
+  }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.2), 1.8em -1.8em 0 0em rgba(255,255,255, 0.2), 2.5em 0em 0 0em rgba(255,255,255, 0.5), 1.75em 1.75em 0 0em rgba(255,255,255, 0.7), 0em 2.5em 0 0em #ffffff, -1.8em 1.8em 0 0em rgba(255,255,255, 0.2), -2.6em 0em 0 0em rgba(255,255,255, 0.2), -1.8em -1.8em 0 0em rgba(255,255,255, 0.2);
+  }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.2), 1.8em -1.8em 0 0em rgba(255,255,255, 0.2), 2.5em 0em 0 0em rgba(255,255,255, 0.2), 1.75em 1.75em 0 0em rgba(255,255,255, 0.5), 0em 2.5em 0 0em rgba(255,255,255, 0.7), -1.8em 1.8em 0 0em #ffffff, -2.6em 0em 0 0em rgba(255,255,255, 0.2), -1.8em -1.8em 0 0em rgba(255,255,255, 0.2);
+  }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.2), 1.8em -1.8em 0 0em rgba(255,255,255, 0.2), 2.5em 0em 0 0em rgba(255,255,255, 0.2), 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.5), -1.8em 1.8em 0 0em rgba(255,255,255, 0.7), -2.6em 0em 0 0em #ffffff, -1.8em -1.8em 0 0em rgba(255,255,255, 0.2);
+  }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255,255,255, 0.2), 1.8em -1.8em 0 0em rgba(255,255,255, 0.2), 2.5em 0em 0 0em rgba(255,255,255, 0.2), 1.75em 1.75em 0 0em rgba(255,255,255, 0.2), 0em 2.5em 0 0em rgba(255,255,255, 0.2), -1.8em 1.8em 0 0em rgba(255,255,255, 0.5), -2.6em 0em 0 0em rgba(255,255,255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+  }
+}
+
+
+/* end of loader2 css */
+
+/* css for loader 3 */
+
+
+#u130723 .loader3,
+.loader3:before,
+.loader3:after {
+  border-radius: 50%;
+}
+#u130723 .loader3:before,
+.loader3:after {
+  position: absolute;
+  content: '';
+}
+#u130723 .loader3:before {
+  width: 5.2em;
+  height: 10.2em;
+  background: #ffffff;
+  border-radius: 10.2em 0 0 10.2em;
+  top: -0.1em;
+  left: -0.1em;
+  -webkit-transform-origin: 5.2em 5.1em;
+  transform-origin: 5.2em 5.1em;
+  -webkit-animation: load2 2s infinite ease 1.5s;
+  animation: load2 2s infinite ease 1.5s;
+}
+#u130723 .loader3 {
+  font-size: 12px;
+  text-indent: -99999em;
+  margin: 5em auto;
+  position: relative;
+  width: 10em;
+  height: 10em;
+  box-shadow: inset 0 0 0 1em #0dcecb;
+}
+#u130723 .loader3:after {
+  width: 5.2em;
+  height: 10.2em;
+  background: #ffffff;
+  border-radius: 0 10.2em 10.2em 0;
+  top: -0.1em;
+  left: 5.1em;
+  -webkit-transform-origin: 0px 5.1em;
+  transform-origin: 0px 5.1em;
+  -webkit-animation: load2 2s infinite ease;
+  animation: load2 2s infinite ease;
+}
+@-webkit-keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*  end of loder3 css */
+
+
+/* css for loader 4 */
+
+#u130723 .loader4 {
+  font-size: 12px;
+  margin: 5em auto;
+  text-indent: -9999em;
+  width: 11em;
+  height: 11em;
+  border-radius: 50%;
+  background: #ffffff;
+  transform-origin:center center 0;
+  background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+}
+#u130723 .loader4:before {
+  width: 50%;
+  height: 50%;
+  background: #ffffff;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+#u130723 .loader4:after {
+  background: #0dcecb;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*  end of loader 4  css */
+
+
+/* css for loader 5 */
+
+
+#u130723 .loader5 {
+  font-size: 12px;
+  margin: 5em auto;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation: load4 1.3s infinite linear;
+  animation: load4 1.3s infinite linear;
+}
+@-webkit-keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0em -3em 0em 0.2em #ffffff, 2em -2em 0 0em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 0em #ffffff;
+  }
+  12.5% {
+    box-shadow: 0em -3em 0em 0em #ffffff, 2em -2em 0 0.2em #ffffff, 3em 0em 0 0em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  25% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 0em #ffffff, 3em 0em 0 0.2em #ffffff, 2em 2em 0 0em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  37.5% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 0em #ffffff, 2em 2em 0 0.2em #ffffff, 0em 3em 0 0em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  50% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 0em #ffffff, 0em 3em 0 0.2em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  62.5% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 0em #ffffff, -2em 2em 0 0.2em #ffffff, -3em 0em 0 0em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  75% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 0.2em #ffffff, -2em -2em 0 0em #ffffff;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0em 0em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 0em #ffffff, -2em -2em 0 0.2em #ffffff;
+  }
+}
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0em -3em 0em 0.2em #ffffff, 2em -2em 0 0em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 0em #ffffff;
+  }
+  12.5% {
+    box-shadow: 0em -3em 0em 0em #ffffff, 2em -2em 0 0.2em #ffffff, 3em 0em 0 0em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  25% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 0em #ffffff, 3em 0em 0 0.2em #ffffff, 2em 2em 0 0em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  37.5% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 0em #ffffff, 2em 2em 0 0.2em #ffffff, 0em 3em 0 0em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  50% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 0em #ffffff, 0em 3em 0 0.2em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  62.5% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 0em #ffffff, -2em 2em 0 0.2em #ffffff, -3em 0em 0 0em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  75% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 0.2em #ffffff, -2em -2em 0 0em #ffffff;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0em 0em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 0em #ffffff, -2em -2em 0 0.2em #ffffff;
+  }
+}
+
+/* end of loader 5 css */
+
+
+/* css for loader 6 */
+
+#u130723 .loader6 {
+  font-size: 12px;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 0.8em auto;
+  position: relative;
+  -webkit-animation: load6 1.7s infinite ease;
+  animation: load6 1.7s infinite ease;
+  transform-origin:center center 0;
+}
+@-webkit-keyframes load6 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: -0.11em -0.83em 0 -0.4em #ffffff, -0.11em -0.83em 0 -0.42em #ffffff, -0.11em -0.83em 0 -0.44em #ffffff, -0.11em -0.83em 0 -0.46em #ffffff, -0.11em -0.83em 0 -0.477em #ffffff;
+  }
+  5%,
+  95% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #ffffff, -0.11em -0.83em 0 -0.42em #ffffff, -0.11em -0.83em 0 -0.44em #ffffff, -0.11em -0.83em 0 -0.46em #ffffff, -0.11em -0.83em 0 -0.477em #ffffff;
+  }
+  30% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #ffffff, -0.51em -0.66em 0 -0.42em #ffffff, -0.75em -0.36em 0 -0.44em #ffffff, -0.83em -0.03em 0 -0.46em #ffffff, -0.81em 0.21em 0 -0.477em #ffffff;
+  }
+  55% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #ffffff, -0.29em -0.78em 0 -0.42em #ffffff, -0.43em -0.72em 0 -0.44em #ffffff, -0.52em -0.65em 0 -0.46em #ffffff, -0.57em -0.61em 0 -0.477em #ffffff;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    box-shadow: -0.11em -0.83em 0 -0.4em #ffffff, -0.11em -0.83em 0 -0.42em #ffffff, -0.11em -0.83em 0 -0.44em #ffffff, -0.11em -0.83em 0 -0.46em #ffffff, -0.11em -0.83em 0 -0.477em #ffffff;
+  }
+}
+@keyframes load6 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: -0.11em -0.83em 0 -0.4em #ffffff, -0.11em -0.83em 0 -0.42em #ffffff, -0.11em -0.83em 0 -0.44em #ffffff, -0.11em -0.83em 0 -0.46em #ffffff, -0.11em -0.83em 0 -0.477em #ffffff;
+  }
+  5%,
+  95% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #ffffff, -0.11em -0.83em 0 -0.42em #ffffff, -0.11em -0.83em 0 -0.44em #ffffff, -0.11em -0.83em 0 -0.46em #ffffff, -0.11em -0.83em 0 -0.477em #ffffff;
+  }
+  30% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #ffffff, -0.51em -0.66em 0 -0.42em #ffffff, -0.75em -0.36em 0 -0.44em #ffffff, -0.83em -0.03em 0 -0.46em #ffffff, -0.81em 0.21em 0 -0.477em #ffffff;
+  }
+  55% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #ffffff, -0.29em -0.78em 0 -0.42em #ffffff, -0.43em -0.72em 0 -0.44em #ffffff, -0.52em -0.65em 0 -0.46em #ffffff, -0.57em -0.61em 0 -0.477em #ffffff;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    box-shadow: -0.11em -0.83em 0 -0.4em #ffffff, -0.11em -0.83em 0 -0.42em #ffffff, -0.11em -0.83em 0 -0.44em #ffffff, -0.11em -0.83em 0 -0.46em #ffffff, -0.11em -0.83em 0 -0.477em #ffffff;
+  }
+}
+
+
+/* end of loader6 css */
+
+
+/* css for loader 7 */
+
+#u130723 .loader7:before,
+.loader7:after,
+.loader7 {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+#u130723 .loader7 {
+  margin: 8em auto;
+  font-size: 12px;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation-delay: 0.16s;
+  animation-delay: 0.16s;
+}
+#u130723 .loader7:before {
+  left: -3.5em;
+}
+#u130723 .loader7:after {
+  left: 3.5em;
+  -webkit-animation-delay: 0.32s;
+  animation-delay: 0.32s;
+}
+#u130723 .loader7:before,
+.loader7:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em #ffffff;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0 #ffffff;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em #ffffff;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0 #ffffff;
+  }
+}
+
+
+/* end of loader 7 css */
+
+
+/* css for loader 8 */
+
+#u130723 .loader8 {
+  margin: 6em auto;
+  font-size: 12px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid #ffffff;
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+  transform-origin:center center 0;
+  
+}
+#u130723 .loader8,
+.loader8:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*  end of loader 8 css */
+
+
+#u130723 .preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#666666; /* change if the mask should have another color then white */
+    opacity:0.8;
+    //z-index:99; /* makes sure it stays on top */
+
+}
+
+#u130723 .status{ margin:20% auto; }
+
+
+
+
+@media screen and (max-width: 980px) {
+
+#u130723 .status{ margin:50% auto; }
+
+}
+
+@media screen and (max-width: 860px) {
+
+#u130723 .status{ margin:50% auto; }
+
+}
+
+@media screen and (max-width: 740px) {
+
+#u130723 .status{ margin:50% auto; }
+
+}
+
+@media screen and (max-width: 640px) {
+
+#u130723 .status{ margin:50% auto; }
+
+  
+}
+
+@media screen and (max-width: 480px) {
+
+#u130723 .status{ margin:50% auto; }
+
+}
+
+@media screen and (max-width: 360px) {
+
+#u130723 .status{ margin:80% auto; }
+
+}
+
+
+</style>
+
  </head>
  <body>
 
@@ -172,24 +743,35 @@ html, body {
      <div class="OLM_H1 clearfix colelem shared_content" id="u52569-4" data-content-guid="u52569-4_content"><!-- content -->
       <h1>ONE-LIFE MEDIA</h1>
      </div>
-     <div class="clearfix colelem shared_content" id="u52576-4" data-content-guid="u52576-4_content"><!-- content -->
-      <p>DIGITAL CONTENT CREATION</p>
+     <div class="clearfix colelem" id="pu130723"><!-- group -->
+      <div class="size_fixed grpelem shared_content" id="u130723" data-content-guid="u130723_content"><!-- custom html -->
+       
+
+<div class="preloader"> 
+<div class="loader1 status">Loading...</div>
+</div>
+  
+
+      </div>
+      <div class="clearfix grpelem shared_content" id="u52576-4" data-content-guid="u52576-4_content"><!-- content -->
+       <p>DIGITAL CONTENT CREATION</p>
+      </div>
      </div>
      <div class="clearfix colelem shared_content" id="ppu39411" data-content-guid="ppu39411_content"><!-- group -->
-      <div class="clearfix grpelem" id="pu39411"><!-- group -->
+      <div class="clearfix grpelem shared_content" id="pu39411" data-content-guid="pu39411_content"><!-- group -->
        <div class="grpelem" id="u39411"><!-- custom html -->
         <a href="https://twitter.com/onelifemedia" class="fa fa-twitter" text-align="center"></a>
        </div>
        <a class="nonblock nontext museBGSize grpelem" id="u39240" href="https://inblaq-music.blogspot.com/"><!-- simple frame --></a>
       </div>
-      <div class="grpelem" id="u39410"><!-- custom html -->
+      <div class="grpelem shared_content" id="u39410" data-content-guid="u39410_content"><!-- custom html -->
        <a href="https://www.facebook.com/oLifeMedia/" class="fa fa-facebook" text-align="center"></a>
       </div>
-      <div class="grpelem" id="u39412"><!-- custom html -->
+      <div class="grpelem shared_content" id="u39412" data-content-guid="u39412_content"><!-- custom html -->
        <a href="https://www.instagram.com/olm_insta/" class="fa fa-instagram" text-align="center"></a>
       </div>
-      <a class="nonblock nontext museBGSize grpelem" id="u39239" href="https://one-lifemedia.blogspot.com/"><!-- simple frame --></a>
-      <a class="nonblock nontext museBGSize grpelem" id="u39241" href="https://colourzoo-images2.blogspot.com/"><!-- simple frame --></a>
+      <a class="nonblock nontext museBGSize grpelem shared_content" id="u39239" href="https://one-lifemedia.blogspot.com/" data-content-guid="u39239_content"><!-- simple frame --></a>
+      <a class="nonblock nontext museBGSize grpelem shared_content" id="u39241" href="https://colourzoo-images2.blogspot.com/" data-content-guid="u39241_content"><!-- simple frame --></a>
      </div>
      <div class="OLM_H1 clearfix ose_pre_init colelem shared_content" id="u88049-4" data-content-guid="u88049-4_content"><!-- content -->
       <h1>SERVICES</h1>
@@ -343,6 +925,7 @@ html, body {
      </div>
      <span class="OLM_H1 clearfix colelem placeholder" data-placeholder-for="u52569-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u130723_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="ppu39411_content"><!-- placeholder node --></span>
      <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u88049-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu85019_content"><!-- placeholder node --></span>
@@ -407,6 +990,7 @@ html, body {
      </div>
      <span class="OLM_H1 clearfix colelem placeholder" data-placeholder-for="u52569-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u130723_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="ppu39411_content"><!-- placeholder node --></span>
      <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u88049-4_content"><!-- placeholder node --></span>
      <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u85019_content"><!-- placeholder node --></span>
@@ -476,7 +1060,14 @@ html, body {
       <h1>ONE-LIFE MEDIA</h1>
      </div>
      <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="ppu39411_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="ppu39411"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="pu39411_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u39410_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u39412_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39239_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39241_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u130723_content"><!-- placeholder node --></span>
+     </div>
      <span class="OLM_H1 clearfix ose_pre_init colelem placeholder" data-placeholder-for="u88049-4_content"><!-- placeholder node --></span>
      <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u85019_content"><!-- placeholder node --></span>
      <span class="shadow rgba-background OLM_P clearfix colelem placeholder" data-placeholder-for="u85016-10_content"><!-- placeholder node --></span>
@@ -542,7 +1133,14 @@ html, body {
      </div>
      <span class="OLM_H1-Mobile clearfix colelem placeholder" data-placeholder-for="u90380-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="ppu39411_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="ppu39411"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="pu39411_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u39410_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u39412_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39239_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u39241_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u130723_content"><!-- placeholder node --></span>
+     </div>
      <div class="OLM_H1-Mobile clearfix ose_pre_init colelem shared_content" id="u88064-4" data-content-guid="u88064-4_content"><!-- content -->
       <h1>SERVICES</h1>
      </div>
@@ -572,41 +1170,46 @@ html, body {
   </div>
   <div class="breakpoint" id="bp_500" data-max-width="500"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u49344_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="phome-page-anchore"><!-- column -->
      <span class="anchor_item colelem placeholder" data-placeholder-for="home-page-anchore_content"><!-- placeholder node --></span>
-     <div class="PamphletWidget clearfix colelem temp_no_id" data-orig-id="pamphletu49657"><!-- none box -->
-      <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u49698"><!-- none box -->
-       <div class="popup_anchor temp_no_id" data-orig-id="u49699popup">
-        <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u49699"><!-- simple frame --></div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu49344"><!-- group -->
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u49344_content"><!-- placeholder node --></span>
+      <div class="PamphletWidget clearfix grpelem temp_no_id" data-orig-id="pamphletu49657"><!-- none box -->
+       <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u49698"><!-- none box -->
+        <div class="popup_anchor temp_no_id" data-orig-id="u49699popup">
+         <div class="Thumb popup_element museBGSize temp_no_id" data-orig-id="u49699"><!-- simple frame --></div>
+        </div>
        </div>
-      </div>
-      <div class="popup_anchor temp_no_id" data-orig-id="u49660popup">
-       <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u49660"><!-- stack box -->
-        <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u49661"><!-- group -->
-         <a class="block anim_swing" href="index.html#blog"><!-- Block link tag --></a>
-         <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu49662"><!-- vertical box -->
-          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49684"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
-          </div>
-          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49677"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
-          </div>
-          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49663"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#blog" data-orig-id="u49664"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content --><span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span></div></a>
-          </div>
-          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49670"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
-          </div>
-          <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49691"><!-- horizontal box -->
-           <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
-          </div>
-         </nav>
+       <div class="popup_anchor temp_no_id" data-orig-id="u49660popup">
+        <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u49660"><!-- stack box -->
+         <div class="pointer_cursor Container invi clearfix grpelem temp_no_id" data-orig-id="u49661"><!-- group -->
+          <a class="block anim_swing" href="index.html#blog"><!-- Block link tag --></a>
+          <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu49662"><!-- vertical box -->
+           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49684"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#features" data-orig-id="u49685"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49686-4"><!-- content --><span class="placeholder" data-placeholder-for="u49686-4_0_content"><!-- placeholder node --></span></div></a>
+           </div>
+           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49677"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#about" data-orig-id="u49678"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49679-4"><!-- content --><span class="placeholder" data-placeholder-for="u49679-4_0_content"><!-- placeholder node --></span></div></a>
+           </div>
+           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49663"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#blog" data-orig-id="u49664"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49665-4"><!-- content --><span class="placeholder" data-placeholder-for="u49665-4_0_content"><!-- placeholder node --></span></div></a>
+           </div>
+           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49670"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#contact-us" data-orig-id="u49671"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49673-4"><!-- content --><span class="placeholder" data-placeholder-for="u49673-4_0_content"><!-- placeholder node --></span></div></a>
+           </div>
+           <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u49691"><!-- horizontal box -->
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix grpelem temp_no_id" href="index.html#subscribe" data-orig-id="u49692"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u49695-4"><!-- content --><span class="placeholder" data-placeholder-for="u49695-4_0_content"><!-- placeholder node --></span></div></a>
+           </div>
+          </nav>
+         </div>
         </div>
        </div>
       </div>
      </div>
-     <span class="OLM_H1-Mobile clearfix colelem placeholder" data-placeholder-for="u90380-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu130723"><!-- group -->
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u130723_content"><!-- placeholder node --></span>
+      <span class="OLM_H1-Mobile clearfix grpelem placeholder" data-placeholder-for="u90380-4_content"><!-- placeholder node --></span>
+     </div>
      <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="ppu39411_content"><!-- placeholder node --></span>
      <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
@@ -667,16 +1270,6 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1080', '#bp_922', '#bp_912', '#bp_609', '#bp_500'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#pamphletu49657', ['#bp_infinity', '#bp_1080', '#bp_922', '#bp_912', '#bp_609', '#bp_500'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu49657 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_infinity').one('muse_this_bp_activate', function(){
-$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,495.22],"fade":246,"opacity":0},{"opacity":100,"in":[495.22,495.22]},{"in":[495.22,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
-$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,1039.6],"fade":12,"opacity":0},{"opacity":100,"in":[1039.6,1039.6]},{"in":[1039.6,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
-$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,1085.96],"fade":108,"opacity":20},{"opacity":100,"in":[1085.96,1085.96]},{"in":[1085.96,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
-$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,1477.65],"fade":50,"opacity":0},{"opacity":100,"in":[1477.65,1477.65]},{"in":[1477.65,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
-$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,1621.95],"fade":50,"opacity":40},{"opacity":100,"in":[1621.95,1621.95]},{"in":[1621.95,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
-$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,2012.57],"fade":50,"opacity":0},{"opacity":100,"in":[2012.57,2012.57]},{"in":[2012.57,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
-$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,2398.78],"fade":50,"opacity":50},{"opacity":100,"in":[2398.78,2398.78]},{"in":[2398.78,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
-$('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,786.75]},{"speed":[0,0],"in":[786.75,Infinity]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
 $('#bp_500').one('muse_this_bp_activate', function(){
 $('#u88064-4').registerOpacityScrollEffect([{"in":[-Infinity,410.18],"fade":246,"opacity":0},{"opacity":100,"in":[410.18,410.18]},{"in":[410.18,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
 $('#u88079-4').registerOpacityScrollEffect([{"in":[-Infinity,1969.92],"fade":50,"opacity":0},{"opacity":100,"in":[1969.92,1969.92]},{"in":[1969.92,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
@@ -687,15 +1280,15 @@ $('#u88110-4').registerOpacityScrollEffect([{"in":[-Infinity,3010.31],"fade":50,
 $('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3370.01],"fade":50,"opacity":50},{"opacity":100,"in":[3370.01,3370.01]},{"in":[3370.01,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
 $('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,693.1]},{"speed":[0,0],"in":[693.1,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
-$('#bp_609').one('muse_this_bp_activate', function(){
-$('#u88064-4').registerOpacityScrollEffect([{"in":[-Infinity,336.55],"fade":246,"opacity":0},{"opacity":100,"in":[336.55,336.55]},{"in":[336.55,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
-$('#u88079-4').registerOpacityScrollEffect([{"in":[-Infinity,1903.57],"fade":50,"opacity":0},{"opacity":100,"in":[1903.57,1903.57]},{"in":[1903.57,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
-$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,2047.88],"fade":50,"opacity":40},{"opacity":100,"in":[2047.88,2047.88]},{"in":[2047.88,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
-$('#u88095-4').registerOpacityScrollEffect([{"in":[-Infinity,2409.05],"fade":12,"opacity":0},{"opacity":100,"in":[2409.05,2409.05]},{"in":[2409.05,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
-$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,2624.96],"fade":108,"opacity":20},{"opacity":100,"in":[2624.96,2624.96]},{"in":[2624.96,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
-$('#u88110-4').registerOpacityScrollEffect([{"in":[-Infinity,2823.57],"fade":50,"opacity":0},{"opacity":100,"in":[2823.57,2823.57]},{"in":[2823.57,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
-$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3191.33],"fade":50,"opacity":50},{"opacity":100,"in":[3191.33,3191.33]},{"in":[3191.33,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
-$('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,651.6]},{"speed":[0,0],"in":[651.6,Infinity]}], $(this)); /* scroll effect */
+$('#bp_infinity').one('muse_this_bp_activate', function(){
+$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,495.22],"fade":246,"opacity":0},{"opacity":100,"in":[495.22,495.22]},{"in":[495.22,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
+$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,1039.6],"fade":12,"opacity":0},{"opacity":100,"in":[1039.6,1039.6]},{"in":[1039.6,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,1085.96],"fade":108,"opacity":20},{"opacity":100,"in":[1085.96,1085.96]},{"in":[1085.96,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
+$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,1477.65],"fade":50,"opacity":0},{"opacity":100,"in":[1477.65,1477.65]},{"in":[1477.65,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,1621.95],"fade":50,"opacity":40},{"opacity":100,"in":[1621.95,1621.95]},{"in":[1621.95,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
+$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,2012.57],"fade":50,"opacity":0},{"opacity":100,"in":[2012.57,2012.57]},{"in":[2012.57,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,2398.78],"fade":50,"opacity":50},{"opacity":100,"in":[2398.78,2398.78]},{"in":[2398.78,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,786.75]},{"speed":[0,0],"in":[786.75,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_912').one('muse_this_bp_activate', function(){
 $('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,396.78],"fade":246,"opacity":0},{"opacity":100,"in":[396.78,396.78]},{"in":[396.78,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
@@ -708,16 +1301,6 @@ $('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3465.48],"fade":50,"o
 $('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,700.5]},{"speed":[0,0],"in":[700.5,Infinity]}], $(this)); /* scroll effect */
 $('#u92821').registerOpacityScrollEffect([{"in":[-Infinity,700.5],"fade":50,"opacity":0},{"opacity":100,"in":[700.5,700.5]},{"in":[700.5,Infinity],"fade":50,"opacity":0}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
-$('#bp_1080').one('muse_this_bp_activate', function(){
-$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,791.43],"fade":246,"opacity":0},{"opacity":100,"in":[791.43,791.43]},{"in":[791.43,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
-$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,1340.65],"fade":12,"opacity":0},{"opacity":100,"in":[1340.65,1340.65]},{"in":[1340.65,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
-$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,1576.11],"fade":108,"opacity":20},{"opacity":100,"in":[1576.11,1576.11]},{"in":[1576.11,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
-$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,1776.07],"fade":50,"opacity":0},{"opacity":100,"in":[1776.07,1776.07]},{"in":[1776.07,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
-$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,1926.38],"fade":50,"opacity":40},{"opacity":100,"in":[1926.38,1926.38]},{"in":[1926.38,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
-$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,2345.27],"fade":50,"opacity":0},{"opacity":100,"in":[2345.27,2345.27]},{"in":[2345.27,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
-$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,2735.48],"fade":50,"opacity":50},{"opacity":100,"in":[2735.48,2735.48]},{"in":[2735.48,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
-$('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,1106.45]},{"speed":[0,0],"in":[1106.45,Infinity]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
 $('#bp_922').one('muse_this_bp_activate', function(){
 $('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,530.78],"fade":246,"opacity":0},{"opacity":100,"in":[530.78,530.78]},{"in":[530.78,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
 $('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,2152.67],"fade":50,"opacity":0},{"opacity":100,"in":[2152.67,2152.67]},{"in":[2152.67,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
@@ -728,6 +1311,26 @@ $('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,3175.77],"fade":50,
 $('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3599.48],"fade":50,"opacity":50},{"opacity":100,"in":[3599.48,3599.48]},{"in":[3599.48,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
 $('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,834.5]},{"speed":[0,0],"in":[834.5,Infinity]}], $(this)); /* scroll effect */
 $('#u92821').registerOpacityScrollEffect([{"in":[-Infinity,834.5],"fade":50,"opacity":0},{"opacity":100,"in":[834.5,834.5]},{"in":[834.5,Infinity],"fade":50,"opacity":0}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_1080').one('muse_this_bp_activate', function(){
+$('#u88049-4').registerOpacityScrollEffect([{"in":[-Infinity,791.43],"fade":246,"opacity":0},{"opacity":100,"in":[791.43,791.43]},{"in":[791.43,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
+$('#u85129-4').registerOpacityScrollEffect([{"in":[-Infinity,1340.65],"fade":12,"opacity":0},{"opacity":100,"in":[1340.65,1340.65]},{"in":[1340.65,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,1576.11],"fade":108,"opacity":20},{"opacity":100,"in":[1576.11,1576.11]},{"in":[1576.11,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
+$('#u85154-4').registerOpacityScrollEffect([{"in":[-Infinity,1776.07],"fade":50,"opacity":0},{"opacity":100,"in":[1776.07,1776.07]},{"in":[1776.07,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,1926.38],"fade":50,"opacity":40},{"opacity":100,"in":[1926.38,1926.38]},{"in":[1926.38,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
+$('#u85190-4').registerOpacityScrollEffect([{"in":[-Infinity,2345.27],"fade":50,"opacity":0},{"opacity":100,"in":[2345.27,2345.27]},{"in":[2345.27,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,2735.48],"fade":50,"opacity":50},{"opacity":100,"in":[2735.48,2735.48]},{"in":[2735.48,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,1106.45]},{"speed":[0,0],"in":[1106.45,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_609').one('muse_this_bp_activate', function(){
+$('#u88064-4').registerOpacityScrollEffect([{"in":[-Infinity,336.55],"fade":246,"opacity":0},{"opacity":100,"in":[336.55,336.55]},{"in":[336.55,Infinity],"fade":2507.8,"opacity":50}], $(this)); /* scroll effect */
+$('#u88079-4').registerOpacityScrollEffect([{"in":[-Infinity,1903.57],"fade":50,"opacity":0},{"opacity":100,"in":[1903.57,1903.57]},{"in":[1903.57,Infinity],"fade":1649.4,"opacity":100}], $(this)); /* scroll effect */
+$('#u85155').registerOpacityScrollEffect([{"in":[-Infinity,2047.88],"fade":50,"opacity":40},{"opacity":100,"in":[2047.88,2047.88]},{"in":[2047.88,Infinity],"fade":1200,"opacity":80}], $(this)); /* scroll effect */
+$('#u88095-4').registerOpacityScrollEffect([{"in":[-Infinity,2409.05],"fade":12,"opacity":0},{"opacity":100,"in":[2409.05,2409.05]},{"in":[2409.05,Infinity],"fade":700,"opacity":80}], $(this)); /* scroll effect */
+$('#u85128-10').registerOpacityScrollEffect([{"in":[-Infinity,2624.96],"fade":108,"opacity":20},{"opacity":100,"in":[2624.96,2624.96]},{"in":[2624.96,Infinity],"fade":1600,"opacity":50}], $(this)); /* scroll effect */
+$('#u88110-4').registerOpacityScrollEffect([{"in":[-Infinity,2823.57],"fade":50,"opacity":0},{"opacity":100,"in":[2823.57,2823.57]},{"in":[2823.57,Infinity],"fade":900,"opacity":80}], $(this)); /* scroll effect */
+$('#u85191').registerOpacityScrollEffect([{"in":[-Infinity,3191.33],"fade":50,"opacity":50},{"opacity":100,"in":[3191.33,3191.33]},{"in":[3191.33,Infinity],"fade":600,"opacity":100}], $(this)); /* scroll effect */
+$('#u92821').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,651.6]},{"speed":[0,0],"in":[651.6,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -750,5 +1353,17 @@ else{var new_height=minH;var new_width=Math.ceil(new_height*videoRatio)}
 this.videoEl.style.width=new_width+'px';this.videoEl.style.height=new_height+'px'}}}(window));(function(){var bv=new Bideo();bv.init({videoEl:document.querySelector('#background_video'),container:document.querySelector('body'),resize:!0,autoplay:true,isMobile:window.matchMedia('(max-width: 1080px)').matches,playButton:document.querySelector('#play'),pauseButton:document.querySelector('#pause'),src:[{src:'https://pictshare.net/ji24jh.mp4/raw',type:'video/mp4'},{src:'Enter WebM URL',type:'video/webm;codecs="vp8, vorbis"'}],onLoad:function(){objectFitVideos(document.getElementById('background_video'));document.querySelector('#video_cover').style.display='none'}})}())
 </script>
 
+		
+		<script type="text/javascript">
+    
+        $(window).load(function() { // makes sure the whole site is loaded
+            $('.status').delay(5*1000).fadeOut(2*100); // will first fade out the loading animation
+            $('.preloader').delay((5*1000)+1000).fadeOut(2*100); // will fade out the white DIV that covers the website.
+            
+        })
+    
+    </script>
+		
+		
    </body>
 </html>
