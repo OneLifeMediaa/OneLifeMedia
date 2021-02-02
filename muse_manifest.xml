@@ -1,14 +1,14 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1612300186768">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1612307487965">
   <folder name="css">
     <file name="site_global.css" crc="3999123546"/>
-    <file name="master_header.css" crc="196150734" ref="index"/>
+    <file name="master_header.css" crc="4182910029" ref="index"/>
     <file name="nomq_preview_master_header.css" crc="169764556" ref="index"/>
     <file name="master_menu.css" crc="4015126649" ref="index"/>
     <file name="nomq_preview_master_menu.css" crc="3824530138" ref="index"/>
     <file name="master_footer.css" crc="4201265392" ref="index"/>
     <file name="nomq_preview_master_footer.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="3809831671" ref="index"/>
-    <file name="nomq_index.css" crc="324428835" ref="index"/>
+    <file name="index.css" crc="469866097" ref="index"/>
+    <file name="nomq_index.css" crc="206682125" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="play-02.png" crc="167282103" seo="true" mt="1566070196000"/>
@@ -39,11 +39,6 @@
     <file name="u52569-4.png" crc="243135919" ref="index"/>
     <file name="inblaq-music_logo-150-x-150.jpg" crc="4064296674" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="one-life-media-logo-150-x150.jpg" crc="130794033" ref="index">
       <caption webpage="index" alt=""/>
@@ -52,6 +47,8 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="u90380-4.png" crc="311667372" ref="index"/>
+    <file name="u135602-4.png" crc="4083006022" ref="index"/>
   </folder>
-  <file name="index.html" crc="524327174" seo="true" mt="1612299970892" redirect="true"/>
+  <file name="index.html" crc="108214291" seo="true" mt="1612307465878" redirect="true"/>
 </manifest>
