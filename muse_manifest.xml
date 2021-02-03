@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1612355792327">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="one-lifemedia.com" resolutions="1x" timestamp="1612356385896">
   <folder name="css">
     <file name="site_global.css" crc="3999123546"/>
     <file name="master_header.css" crc="4253020995" ref="index"/>
@@ -51,5 +51,5 @@
     <file name="u90380-4.png" crc="311667372" ref="index"/>
     <file name="u135602-4.png" crc="185353482" ref="index"/>
   </folder>
-  <file name="index.html" crc="4185120138" seo="true" mt="1612355726877" redirect="true"/>
+  <file name="index.html" crc="391881607" seo="true" mt="1612356360545" redirect="true"/>
 </manifest>
