@@ -21,7 +21,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="stylesheet" type="text/css" href="css/master_menu.css?crc=248203004"/>
   <link rel="stylesheet" type="text/css" href="css/master_header.css?crc=4253020995"/>
   <link rel="stylesheet" type="text/css" href="css/master_footer.css?crc=3890552304"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=317244917" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4292940857" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_menu.css?crc=3824530138"/>
@@ -85,7 +85,7 @@ html, body {
 
 #video_controls {
   position: absolute;
-  top: 86%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
@@ -107,7 +107,7 @@ html, body {
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 900px) {
   #video_controls {
     display: inline-block;
   }
@@ -326,7 +326,7 @@ html, body {
      <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="ppu39411_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="468" data-content-below-spacer="72"></div>
+    <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="443" data-content-below-spacer="73"></div>
     <span class="OLM_P clearfix grpelem placeholder" data-placeholder-for="u83562-10_content"><!-- placeholder node --></span>
    </div>
   </div>
@@ -364,7 +364,7 @@ html, body {
      <span class="clearfix colelem placeholder" data-placeholder-for="u52576-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="ppu39411_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="413" data-content-below-spacer="77"></div>
+    <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="382" data-content-below-spacer="77"></div>
     <span class="OLM_P clearfix grpelem placeholder" data-placeholder-for="u83562-10_content"><!-- placeholder node --></span>
    </div>
   </div>
@@ -412,7 +412,7 @@ return}
 this.resize=function(){if('object-fit' in document.body.style)return;var w=this.videoEl.videoWidth,h=this.videoEl.videoHeight;var videoRatio=(w/h).toFixed(2);var container=this.opt.container,containerStyles=global.getComputedStyle(container),minW=parseInt(containerStyles.getPropertyValue('width')),minH=parseInt(containerStyles.getPropertyValue('height'));if(containerStyles.getPropertyValue('box-sizing')!=='border-box'){var paddingTop=containerStyles.getPropertyValue('padding-top'),paddingBottom=containerStyles.getPropertyValue('padding-bottom'),paddingLeft=containerStyles.getPropertyValue('padding-left'),paddingRight=containerStyles.getPropertyValue('padding-right');paddingTop=parseInt(paddingTop);paddingBottom=parseInt(paddingBottom);paddingLeft=parseInt(paddingLeft);paddingRight=parseInt(paddingRight);minW+=paddingLeft+paddingRight;minH+=paddingTop+paddingBottom}
 var widthRatio=minW/w;var heightRatio=minH/h;if(widthRatio>heightRatio){var new_width=minW;var new_height=Math.ceil(new_width/videoRatio)}
 else{var new_height=minH;var new_width=Math.ceil(new_height*videoRatio)}
-this.videoEl.style.width=new_width+'px';this.videoEl.style.height=new_height+'px'}}}(window));(function(){var bv=new Bideo();bv.init({videoEl:document.querySelector('#background_video'),container:document.querySelector('body'),resize:!0,autoplay:true,isMobile:window.matchMedia('(max-width: 1080px)').matches,playButton:document.querySelector('#play'),pauseButton:document.querySelector('#pause'),src:[{src:'https://pictshare.net/ji24jh.mp4/raw',type:'video/mp4'},{src:'Enter WebM URL',type:'video/webm;codecs="vp8, vorbis"'}],onLoad:function(){objectFitVideos(document.getElementById('background_video'));document.querySelector('#video_cover').style.display='none'}})}())
+this.videoEl.style.width=new_width+'px';this.videoEl.style.height=new_height+'px'}}}(window));(function(){var bv=new Bideo();bv.init({videoEl:document.querySelector('#background_video'),container:document.querySelector('body'),resize:!0,autoplay:true,isMobile:window.matchMedia('(max-width: 900px)').matches,playButton:document.querySelector('#play'),pauseButton:document.querySelector('#pause'),src:[{src:'https://pictshare.net/ji24jh.mp4/raw',type:'video/mp4'},{src:'Enter WebM URL',type:'video/webm;codecs="vp8, vorbis"'}],onLoad:function(){objectFitVideos(document.getElementById('background_video'));document.querySelector('#video_cover').style.display='none'}})}())
 </script>
 
    </body>
